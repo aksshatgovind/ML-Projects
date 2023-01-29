@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>ML-ALGOS</title>
+	<style>
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		background-color: antiquewhite;
+	}
+	.div2 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		padding: 30px;
+		transform: translate(-50%, -50%);
+		border: 1px solid black;
+	}
+
+	</style>
+
+	</head>
+	<body>
+	<div class="div2">
+	<form action="http://127.0.0.1:5000" , method="POST">
+		<p>
+		<input type="radio" id="mlr" name="model" value="Regression1"/>
+		<label for="mlr">Multiple Linear Regression</label><br>
+		<input type="radio" id="logr" name="model" value="Regression2"/>
+		<label for="logr">Logistic Regression</label><br>
+		<input type="radio" id="knn" name="model" value="Classifier1"/>
+		<label for="knn">K Nearest Classifier</label><br>
+		<input type="radio" id="dt" name="model" value="Classifier2"/>
+		<label for="dt">Decision Tree Classifier</label><br>
+		<input type="radio" id="rf" name="model" value="Classifier3"/>
+		<label for="rf">Random Forest Classifier</label><br>
+		<br>
+
+		<label for="1">Enter AGE</label>
+		<input type="number" name=“feature1” id="1" value="text"/>
+		<br>
+		<label for="2">Enter SEX (for MALE=1,FEMALE=0)</label>
+		<input type="range" name=“feature2” id="2" min="0" max="1" value="text"/>
+		<br>
+		<label for="3">Enter Chest Pain Type (for ASY=0,ATA=1,NAP=2,TA=3)</label>
+		<input type="range" name=“feature3” id="3" min="0" max="3" step="1" value="text"/>
+		<br>
+		<label for="4">Enter Resting Blood Pressure</label>
+		<input type="number" name=“feature4” id="4" value="text"/>
+		<br>
+		<label for="5">Enter Cholesterol Level</label>
+		<input type="number" name=“feature5” id="5" value="text"/>
+		<br>
+		<label for="6">Enter Fasting BS</label>
+		<input type="number" name=“feature6” id="6" value="text"/>
+		<br>
+		<label for="7">Enter Resting ECG (for LVH=0,Normal=1,ST=2)</label>
+		<input type="range" name=“feature7” id="7" min="0" max="2" step="1" value="text"/>
+		<br>
+		<label for="8">Enter Max HR</label>
+		<input type="number" name=“feature8” id="8" value="text"/>
+		<br>
+		<label for="9">Enter Exercise Angina (for No=0,Yes=1)</label>
+		<input type="range" name=“feature9” id="9" min="0" max="1" step="1" value="text"/>
+		<br>
+		<label for="10">Enter Old Peak</label>
+		<input type="number" name=“feature10” id="10" value="text" />
+		<br>
+		<label for="11">Enter ST Slope (for Down=0,Flat=1,Up=2)</label>
+		<input type="range" name=“feature11” id="11" min="0" max="2" step="1" value="text"/>
+		<br>
+		<input type="submit"  id="submit_form_btn" value="submit"/>
+        </p>
+      </form>
+      <br />
+      <p>Is Patient vulnerable to Heart Disease?: {{result}}</p>
+    </div>
+  </body>
+</html>
