@@ -5,7 +5,6 @@
 import sys
 from util import Colour, read_image_to_array, write_array_to_image
 
-
 def energy_at(pixels, x, y):
     h = len(pixels)
     w = len(pixels[0])

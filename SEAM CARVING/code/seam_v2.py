@@ -7,7 +7,6 @@ import sys
 from energy import compute_energy
 from util import Colour, read_image_to_array, write_array_to_image
 
-
 class SeamEnergyWithBackPointer:
 
     def __init__(self, energy, x_coordinate_in_previous_row=None):
