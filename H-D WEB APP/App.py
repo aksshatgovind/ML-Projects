@@ -13,19 +13,19 @@ def student():
 def ValuePredictor(to_predict_list, to_option):
     to_predict = [to_predict_list]
     if to_option=='Regression1':
-        loaded_model = joblib.load('/Users/coding/Documents/vs/machine_learning/ml_algos/model.sav')                                           
+        loaded_model = joblib.load('./H-D WEB APP/models/reg1.sav')                                           
         result = loaded_model.predict(to_predict)
     if to_option=='Regression2':
-        loaded_model = joblib.load('/Users/coding/Documents/vs/machine_learning/ml_algos/model2.sav')                                           
+        loaded_model = joblib.load('./H-D WEB APP/models/reg2.sav')                                           
         result = loaded_model.predict(to_predict)
     if to_option=='Classifier1':
-        loaded_model = joblib.load('/Users/coding/Documents/vs/machine_learning/ml_algos/model3.sav')                                             
+        loaded_model = joblib.load('./H-D WEB APP/models/class3.sav')                                             
         result = loaded_model.predict(to_predict)
     if to_option=='Classifier2':
-        loaded_model = joblib.load('/Users/coding/Documents/vs/machine_learning/ml_algos/model4.sav')                                             
+        loaded_model = joblib.load('./H-D WEB APP/models/class4.sav')                                             
         result = loaded_model.predict(to_predict)
     if to_option=='Classifier3':
-        loaded_model = joblib.load('/Users/coding/Documents/vs/machine_learning/ml_algos/model5.sav')                                             
+        loaded_model = joblib.load('./H-D WEB APP/models/class5.sav')                                             
         result = loaded_model.predict(to_predict)
     return result[0]
 
