@@ -1,0 +1,150 @@
+.App {
+  position: relative;
+  background: radial-gradient(circle, #46c668 10%, transparent 10%) 0 0,
+              radial-gradient(circle, #298b20 10%, transparent 10%) 25px 25px;
+  background-size: 50px 50px;
+  animation: bubblesAnimation 5s infinite linear;
+}
+
+@keyframes bubblesAnimation {
+  0% {
+    background-position: 0 0, 25px 25px;
+  }
+  100% {
+    background-position: 50px 50px, 75px 75px;
+  }
+}
+
+
+body{
+  background-color: #ffffff;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff; 
+}
+
+.UserInput {
+  margin-bottom: 20px;
+}
+
+.UserInput h2 {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-left: 822px; 
+  margin-top: -400px;
+  width: 40%;
+  height: 70%;
+  text-align: center;
+}
+
+.t {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+  position: center;
+  text-align: center;
+  margin-left: 260px;
+  background-image: linear-gradient(135deg, #19f190, #0e5253); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  position: relative; 
+  display: inline-block; 
+  padding: 0.5rem 1rem; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 0.5rem 1rem rgba(11, 54, 65, 0.2); 
+  animation: glowAnimation 2s infinite alternate; 
+}
+
+.text {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.UserInput {
+  font-family:sans-serif;
+  font-size: 2rem; 
+  position: center;
+  margin-top: -190px;
+  text-align: center;
+  background-image: linear-gradient(135deg, #fffc43, #110068); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color:rgba(89, 112, 25, 0.592); 
+  backdrop-filter: blur(6px);
+  position: relative; 
+  display: inline-block; 
+  padding: 0.5rem 1rem; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 0.5rem 1rem rgba(62, 166, 192, 0.2); 
+  animation: glowAnimation 2s infinite alternate; 
+}
+
+@keyframes glowAnimation {
+  0% {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0.5rem 2rem rgba(5, 67, 48, 0.5);
+  }
+}
+
+.UserInput input[type="number"] {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  border: 1px solid rgb(43, 20, 94);
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+}
+
+.NeuralNetwork {
+  position: relative;
+  width: 800px;
+  height: 850px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: rgba(245, 245, 249, 0.896);
+  margin-right: 20px;
+  backdrop-filter: blur(2px);
+  padding: 20px;
+}
+
+.c {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.NeuralNetwork svg {
+  width: 100%;
+  height: 100%;
+}
+
+.NeuralNetwork button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #354d65;
+  color: #fff;
+  border: none;
+  font-size: medium;
+  height: 7%;
+  width: 75%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.NeuralNetwork button:hover {
+  background-color: #0056b3;
+}
+
