@@ -14,7 +14,7 @@ NN VISION is a web application that allows users to visualize the structure of n
 1.  Clone the repository to your local machine:
     
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/aksshatgovind/ML-Projects/tree/main/NN%20VISION.git
     ```
     
 2.  Navigate to the project directory:
