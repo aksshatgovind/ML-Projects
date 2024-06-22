@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dots and Boxes Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Dots and Boxes Game</h1>
+        <h3>Current Board:</h3>
+        <table>
+            <thead>
+                <tr>
+                    {% for col in range(game.cols) %}
+                        <th>{{ col }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in range(game.rows) %}
+                    <tr>
+                        {% for col in range(game.cols) %}
+                            <td class="{% if col > 0 and row < game.rows - 1 %}{% if game.vertical_lines[row][col - 1] %}vertical{% endif %}{% endif %}">
+                                <br>
+                                {% if row < game.rows - 1 and col < game.cols - 1 %}
+                                    {% if game.boxes[row][col] %}
+                                        <span class="dot player{{ game.boxes[row][col] }}"></span>
+                                    {% else %}
+                                        &nbsp;&nbsp;&nbsp;
+                                    {% endif %}
+                                {% endif %}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <h3>Player {{ game.current_player }}'s turn</h3>
+        <form action="/play_game" method="post">
+            <label for="line_type">Enter line type ('h' for horizontal, 'v' for vertical):</label>
+            <input type="text" id="line_type" name="line_type" maxlength="1" required>
+            <br><br>
+            <label for="row">Enter row number:</label>
+            <input type="number" id="row" name="row" min="0" max="{{ game.rows - 1 }}" required>
+            <br><br>
+            <label for="col">Enter column number:</label>
+            <input type="number" id="col" name="col" min="0" max="{{ game.cols - 1 }}" required>
+            <br><br>
+            <button type="submit">Draw Line</button>
+        </form>
+    </div>
+</body>
+</html>

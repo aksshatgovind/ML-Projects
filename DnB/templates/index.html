@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dots and Boxes Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Dots and Boxes!</h1>
+        <form action="/start_game" method="post">
+            <label for="rows">Rows:</label>
+            <input type="number" id="rows" name="rows" required>
+            <label for="cols">Columns:</label>
+            <input type="number" id="cols" name="cols" required>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
+</body>
+</html>
