@@ -1,0 +1,346 @@
+@font-face {
+  font-family: 'Beautiful Serif';
+  src: url('../fonts/Teko-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../fonts/Jost-LightItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+
+#bg-wrap {
+  position: fixed; /* Fixed position relative to the viewport */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  z-index: -1; /* Place it behind all other content */
+  background-color: #f0f0f0; /* Optional: Set a background color if needed */
+}
+
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif; /* Fallback font */
+  background-color: transparent;
+  padding: 20px;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Beautiful Serif', serif; /* Use Beautiful Serif */
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+  font-size: 9rem;
+  width:600px;
+  display: inline;
+  margin: 0;
+}
+
+h1:hover {
+  color: #007bffa3; /* Change title color on hover */
+}
+
+.card-overlay {
+  position: fixed; /* Use fixed positioning to cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px); /* Blurred background */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* Ensure it's on top of other content */
+}
+
+.card-overlay.active {
+  display: flex;
+}
+
+.color-transition-card {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid rgb(10, 10, 10);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, var(--start-color) 50%, var(--end-color) 50%);
+  background-size: 200% 100%;
+  animation: colorTransition 2s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-transition-text {
+  font-size: 18px;
+  color: #333;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Blurry border effect */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Blurry text effect */
+}
+
+@keyframes colorTransition {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.color-cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.color-card {
+  margin: 0 10px;
+  padding: 20px;
+  /* border: 1px solid rgb(145, 13, 13); */
+  border-radius: 5px;
+  position: relative;
+}
+
+.color-box {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px; /* Initially hidden off-screen */
+  width: 250px;
+  height: 100%;
+  padding-top: 50px;
+  background-color: rgba(51, 51, 51, 0.902);
+  color: #fff;
+  transition: right 0.3s;
+  box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure it is above other content */
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.sidebar.open {
+  right: 0; /* Slide in from the right */
+}
+
+.sidebar .close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.sidebar .difficulty-options {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.sidebar .difficulty-options button {
+  display: block;
+  width: 50%;
+  margin: 30px 57px;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #539362;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.sidebar .difficulty-options button:hover {
+  background-color: #c2ba43;
+}
+
+/* Hamburger menu styles */
+.sidebar-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+.sidebar-toggle .bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 6px auto;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+.sidebar-toggle.hide {
+  display: none;
+}
+
+/* Sidebar footer styles */
+.sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 49px;
+  background-color: #222;
+  text-align: center;
+  font-size: 14px;
+}
+
+.sidebar-footer p {
+  margin: 5px 0;
+}
+
+.sidebar-footer a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.sidebar-footer a:hover {
+  text-decoration: underline;
+}
+.sidebar-score{
+  color: coral;
+  font-size: large;
+  padding-top: 20px;
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+/* Congrats Message */
+/* Slide in from the left */
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Wobble effect */
+@keyframes wobble {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(2deg);
+  }
+  30% {
+    transform: rotate(-2deg);
+  }
+  45% {
+    transform: rotate(1deg);
+  }
+  60% {
+    transform: rotate(-1deg);
+  }
+  75% {
+    transform: rotate(0.5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Fade out effect */
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none; /* Hide the element */
+  }
+}
+
+
+/* Congrats Message */
+.congrats-message {
+  position: fixed;
+  top: 5%;
+  left: 3%;
+  background: #fff;
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure it's above other content */
+  animation: slide-in 1s ease-out forwards, wobble 6s ease-in-out 1s forwards, fade-out 1s ease-out 9s forwards;
+  font-family: 'Jost';
+}
+
+.congrats-message h2 {
+  margin: 0 0 10px;
+}
+
+.congrats-message p {
+  margin: 5px 0;
+}
+
+/* Try Again Message */
+.try-again-message {
+  position: fixed;
+  top: 5%;
+  left: 3%;
+  background: #fff;
+  border: 2px solid #f00; /* Red border for emphasis */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure it's above other content */
+  animation: slide-in 1s ease-out forwards;
+  font-family: 'Jost';
+}
+
+.try-again-message h2 {
+  margin: 0 0 10px;
+  color: #f00; /* Red color for the title */
+}
+
+.try-again-message p {
+  margin: 5px 0;
+}
+
+/* Disabled state for ColorPicker options */
+.color-picker button[disabled] {
+  background-color: #ccc; /* Gray background for disabled state */
+  cursor: not-allowed; /* Change cursor to indicate disabled state */
+}

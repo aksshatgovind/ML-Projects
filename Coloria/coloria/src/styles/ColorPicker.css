@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Cairo';
+  src: url('../fonts/CairoPlay-Medium.ttf') format('truetype');
+  font-weight:100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Saira';
+  src: url('../fonts/Saira_Condensed-Light.ttf') format('truetype');
+  font-weight:100;
+  font-style: normal;
+}
+
+
+.color-picker {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 20px auto;
+  max-width: 900px; /* Adjust as needed */
+  padding: 10px;
+}
+
+.color-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.group-title {
+  font-size: 18px;
+  font-family: 'Cairo';
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.color-group .group-title + .color-option {
+  /* Ensures Compliment button has the same size as others */
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.color-option {
+  padding: 3px;
+  border: none;
+  font:bold;
+  margin-top: -5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #265c97e7;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+  text-align: center;
+  font-family: 'Saira';
+}
+
+.color-option:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.color-option:active {
+  transform: translateY(1px);
+}
+
+.color-option.disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
