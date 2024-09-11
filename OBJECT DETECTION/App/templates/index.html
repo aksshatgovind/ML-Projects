@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EyeSPY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">Eye Spy</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#documentation">Documentation</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div id="root"></div> <!-- React root div -->
+            <!-- Video frame container initially hidden -->
+            <div id="video-container" class="video-frame" style="display: none;">
+                <iframe src="/video_feed" title="Object Detection Feed"></iframe>
+            </div>
+            <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+        </section>
+        <section id="features" class="features-section">
+            <h2>Features</h2>
+            <div class="features-container">
+                <div class="feature-card">
+                    <h3>Real-time Detection</h3>
+                    <p>Identify objects in live video feeds instantly.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>High Accuracy</h3>
+                    <p>Powered by advanced machine learning models with high detection accuracy.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Easy Integration</h3>
+                    <p>Seamlessly integrate with your existing applications.</p>
+                </div>
+            </div>
+        </section>
+        <section id="documentation" class="documentation-section">
+            <h2>Documentation</h2>
+            <p>This project utilizes the MSCOCO dataset and SSD (Single Shot MultiBox Detector) for real-time object detection using a webcam.</p>
+            <h3 class="animated-font-subhead">Requirements</h3>
+            <ul>
+                <li>Python 3.10</li>
+                <li>OpenCV (cv2)</li>
+                <li>Pre-trained SSD model</li>
+                <li>MSCOCO dataset</li>
+            </ul>
+            <h3 class="animated-font-subhead">Installation</h3>
+            <ol>
+                <li>Clone the repository:
+                    <pre><code>git clone https://github.com/aksshatgovind/ML-Projects/tree/main/OBJECT%20DETECTION.git</code></pre>
+                </li>
+                <li>Install required Python packages:
+                    <pre><code>pip install opencv-python</code></pre>
+                </li>
+            </ol>
+            <h3 class="animated-font-subhead">Usage</h3>
+            <ol>
+                <li>Run the script:
+                    <pre><code>python code.ipynb</code></pre>
+                </li>
+                <li>The webcam feed will start, and objects detected by the model will be outlined and labeled in real-time.</li>
+                <li>Press 'q' to exit the application.</li>
+            </ol>
+            <h3 class="animated-font-subhead">Notes</h3>
+            <ul>
+                <li>Ensure that the webcam is connected and accessible.</li>
+                <li>Adjust the confidence threshold (`confThreshold`) as needed for your application.</li>
+                <li>The script currently supports detecting up to 80 classes defined in the MSCOCO dataset.</li>
+            </ul>
+            <h3 class="animated-font-subhead">Credits</h3>
+            <ul>
+                <li>The code for object detection is based on the SSD implementation.</li>
+                <li>Pre-trained SSD models can be obtained from various sources, including TensorFlow Object Detection API.</li>
+                <li>MSCOCO dataset provides a wide range of object classes for training and evaluation.</li>
+            </ul>
+        </section>
+        <section id="about" class="about-section">
+            <h2>About</h2>
+            <p>Welcome to Eye Spy, where we harness cutting-edge technology to provide powerful and accurate object detection solutions. Our team is dedicated to leveraging the latest advancements in machine learning and computer vision to deliver top-notch tools for real-time object detection.</p>
+            <p>Our object detection tool is built on the SSD (Single Shot MultiBox Detector) framework and utilizes the extensive MSCOCO dataset to ensure high accuracy and performance. We strive to make our technology accessible and easy to integrate with existing applications, helping you achieve better results with minimal effort.</p>
+            <p>If you have any questions or need support, feel free to reach out to us through the contact section on this page.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aksshat Govind All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
