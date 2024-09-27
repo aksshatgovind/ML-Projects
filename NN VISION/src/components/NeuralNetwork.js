@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-function NeuralNetwork({ inputValues, architecture = 'FCNN' }) {
+function NeuralNetwork({ inputValues, architecture = 'FCNN' }) 
+{
   const [hiddenNodes, setHiddenNodes] = useState([
     { id: 'hidden1', x: 300, y: 150, value: 0 },
     { id: 'hidden2', x: 300, y: 250, value: 0 },

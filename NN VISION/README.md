@@ -51,3 +51,5 @@ NN VISION is a web application that allows users to visualize the structure of n
 2. Calculate Output Value
 
 ![Output Layer](./static/ss2.png) 
+
+

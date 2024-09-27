@@ -10,3 +10,4 @@ export const calculateFinalActivation = (inputValues, hiddenNodes) => {
     return activation;
   };
   
+  
