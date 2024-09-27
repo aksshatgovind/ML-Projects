@@ -1,0 +1,4 @@
+django
+sentence-transformers
+pinecone-client
+openai

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A Bot</title>
+</head>
+<body>
+    <h1>Ask Your Question</h1>
+    <form id="question-form">
+        <input type="text" name="question" placeholder="Enter your question here..." required>
+        <button type="submit">Ask</button>
+    </form>
+    <div id="answer"></div>
+
+    <script>
+        document.getElementById('question-form').onsubmit = async function(event) {
+            event.preventDefault();
+
+            const formData = new FormData(event.target);
+            const question = formData.get('question');
+
+            const response = await fetch('/ask/', {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}',
+                },
+                body: formData
+            });
+
+            const data = await response.json();
+            document.getElementById('answer').innerText = data.answer;
+        };
+    </script>
+</body>
+</html>
