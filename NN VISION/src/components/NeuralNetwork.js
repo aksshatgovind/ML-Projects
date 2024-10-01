@@ -1,26 +1,30 @@
 import React, { useState, useEffect } from 'react';
+import { calculateFinalActivation } from '../utils'; 
 
-function NeuralNetwork({ inputValues, architecture = 'FCNN' }) 
-{
+
+function NeuralNetwork({ inputValues, architecture = 'FCNN' }) {
   const [hiddenNodes, setHiddenNodes] = useState([
     { id: 'hidden1', x: 300, y: 150, value: 0 },
     { id: 'hidden2', x: 300, y: 250, value: 0 },
     { id: 'hidden3', x: 300, y: 350, value: 0 },
     { id: 'hidden4', x: 300, y: 450, value: 0 },
   ]);
+
   const [outputNode, setOutputNode] = useState({
     id: 'output',
     x: 700,
     y: 300,
     activation: 0,
     color: 'red',
-    size: 30, // Added size for output node customization
+    size: 30,
   });
+
   const [inputNodeValues, setInputNodeValues] = useState({
     input1: 0,
     input2: 0,
     input3: 0,
   });
+
   const [inputToHiddenWeights, setInputToHiddenWeights] = useState(() => {
     const weights = [];
     for (let i = 0; i < 4; i++) {
@@ -28,13 +32,16 @@ function NeuralNetwork({ inputValues, architecture = 'FCNN' })
     }
     return weights;
   });
+
+  const [hiddenToOutputWeights, setHiddenToOutputWeights] = useState([0.5, 0.4, -0.2, 0.1]);  // Example weights
+
   const [edges, setEdges] = useState([]);
   const [inputsComplete, setInputsComplete] = useState(false);
   const [outputNodeValue, setOutputNodeValue] = useState(0);
 
-  // New state for customizable properties (edges, nodes)
-  const [nodeSize, setNodeSize] = useState(30);  // Default size for all nodes
-  const [edgeWidth, setEdgeWidth] = useState(2); // Default edge width
+  // Customization for nodes and edges
+  const [nodeSize, setNodeSize] = useState(30);
+  const [edgeWidth, setEdgeWidth] = useState(2);
 
   // Handle node size change
   const handleNodeSizeChange = (e) => {
@@ -44,6 +51,15 @@ function NeuralNetwork({ inputValues, architecture = 'FCNN' })
   // Handle edge width change
   const handleEdgeWidthChange = (e) => {
     setEdgeWidth(parseFloat(e.target.value));
+  };
+
+  const handleWeightChange = (e, j, i) => {
+    const newWeight = parseFloat(e.target.value);
+    setInputToHiddenWeights(prevWeights => {
+      const updatedWeights = [...prevWeights];
+      updatedWeights[j][i] = newWeight;
+      return updatedWeights;
+    });
   };
 
   // Generates edges between input and hidden nodes based on weights
@@ -68,16 +84,12 @@ function NeuralNetwork({ inputValues, architecture = 'FCNN' })
         const weight = edge.weight;
         return acc + inputValue * weight;
       }, 0);
-    return value >= 0 ? value : 0; // Using ReLU activation function
+    return Math.max(0, value); // ReLU activation
   };
 
   const calculateOutputNodeValue = () => {
-    const summation = hiddenNodes.reduce((acc, hiddenNode) => {
-      const weight = Math.random() * 2 - 1; // Random weight between hidden and output
-      return acc + hiddenNode.value * weight;
-    }, 0);
-
-    return Math.max(0, summation); // Using ReLU activation for the output node as well
+    const outputValue = calculateFinalActivation(inputNodeValues, hiddenNodes);
+    return outputValue;
   };
 
   useEffect(() => {
@@ -103,13 +115,13 @@ function NeuralNetwork({ inputValues, architecture = 'FCNN' })
   };
 
   const handleOutputCalculation = () => {
-    const outputValue = calculateOutputNodeValue();
+    const outputValue = calculateFinalActivation(inputNodeValues, hiddenNodes);
     setOutputNodeValue(outputValue);
   };
 
   return (
     <div className="NeuralNetwork">
-      <div className="t">NN VISION</div>
+      <div className="tt">NN VISION</div>
 
       {/* Node and Edge Customization Section */}
       <div className="controls">
@@ -177,32 +189,23 @@ function NeuralNetwork({ inputValues, architecture = 'FCNN' })
         ))}
 
         {/* Drawing Hidden Nodes */}
-        {hiddenNodes.map((node, index) => (
-          <g key={`hidden-${index}`}>
-            <circle cx={node.x + 100} cy={node.y * 1.8 - 104} r={nodeSize} fill="blue" opacity="0.66" />
-            <text x={node.x + 100} y={node.y * 1.8 - 104} fill="white" textAnchor="middle" alignmentBaseline="central">{`H ${index + 1}`}</text>
-            <text x={node.x + 100} y={node.y * 1.8 - 104 + 50} fill="black" textAnchor="middle" alignmentBaseline="central">{node.value.toFixed(2)}</text>
+        {hiddenNodes.map((hiddenNode, index) => (
+          <g key={hiddenNode.id}>
+            <circle cx={400} cy={(index + 1) * 175} r={nodeSize} fill="blue" opacity="0.66" />
+            <text x={400} y={(index + 1) * 175} fill="white" textAnchor="middle" alignmentBaseline="central">{`H${index + 1}`}</text>
+            <text x={400} y={(index + 1) * 175 + 50} fill="black" textAnchor="middle" alignmentBaseline="central">{hiddenNode.value.toFixed(2)}</text>
           </g>
         ))}
 
         {/* Drawing Output Node */}
-        <g key={`output`}>
-          <circle cx={outputNode.x - 50} cy={outputNode.y + 100} r={outputNode.size} fill={outputNode.color} opacity="0.7" />
-          <text x={outputNode.x - 50} y={outputNode.y + 100} fill="white" textAnchor="middle" alignmentBaseline="central">Out</text>
-          <text x={outputNode.x - 50} y={outputNode.y + 100 + 50} fill="black" textAnchor="middle" alignmentBaseline="central">
-            {outputNodeValue.toFixed(2)}
-          </text>
-        </g>
-
-        <marker id="arrowhead" markerWidth="9" markerHeight="8" refX="8" refY="3" orient="auto" fill="black">
-          <polygon points="0 0, 10 3, 0 6" />
-        </marker>
+        <circle cx={620} cy={400} r={nodeSize} fill={outputNode.color} opacity="0.66" />
+        <text x={620} y={400} fill="white" textAnchor="middle" alignmentBaseline="central">O</text>
+        <text x={620} y={450} fill="black" textAnchor="middle" alignmentBaseline="central">{outputNodeValue.toFixed(2)}</text>
       </svg>
 
-      <div className="buttons">
-        {!inputsComplete && <button onClick={handleInputComplete}>Calculate Hidden Values</button>}
-        {inputsComplete && <button onClick={handleOutputCalculation}>Calculate Output Value</button>}
-      </div>
+      <button className="set-button" onClick={handleInputComplete}>Set Input Weights</button>
+      <button className="calc-button" onClick={handleOutputCalculation}>Calculate Output</button>
+
     </div>
   );
 }

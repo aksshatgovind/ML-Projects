@@ -1,149 +1,462 @@
-.App {
-  position: relative;
-  background: radial-gradient(circle, #46c668 10%, transparent 10%) 0 0,
-              radial-gradient(circle, #298b20 10%, transparent 10%) 25px 25px;
-  background-size: 50px 50px;
-  animation: bubblesAnimation 5s infinite linear;
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181818; /* Dark background */
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  min-height: 100vh; /* Ensure the body takes at least full height */
+  color: white; /* Default text color */
 }
 
-@keyframes bubblesAnimation {
-  0% {
-    background-position: 0 0, 25px 25px;
-  }
-  100% {
-    background-position: 50px 50px, 75px 75px;
-  }
+.container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  flex: 1; /* Allow the container to grow */
 }
 
-body{
-  background-color: #ffffff;
-}
 .App {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  background-color: #ffffff; 
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center align items horizontally */
+  flex: 1; /* Allow the app to grow */
+  padding: 100px; /* Add padding for spacing */
 }
 
-.UserInput {
+
+.navbar {
+  background-color: #1c1c1c; /* Darker navbar */
+  color: white;
+  padding: 20px;
+  width: 220px; /* Fixed width for the navbar */
+  position: fixed; /* Keep it fixed */
+  height: 100%; /* Full height */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.navbar h2 {
+  font-size: 24px;
   margin-bottom: 20px;
-}
-
-.UserInput h2 {
-  margin-bottom: 10px;
-}
-
-.buttons {
-  margin-left: 822px; 
-  margin-top: -400px;
-  width: 40%;
-  height: 70%;
   text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 20px 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #f0a500; /* Accent color for links */
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #ffffff; /* Change color on hover */
+}
+
+#root {
+  margin-left: 240px; /* Leave space for navbar */
+  padding: 20px;
+  flex: 1; /* Allow root to grow and take remaining space */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+.visualizer-section {
+  display: flex;
+  flex-direction: column; /* Arrange components in a column */
+  align-items: center; /* Center the visualizer and controls */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: white;
+  margin-top: auto; /* Push footer to bottom */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+footer a {
+  color: #f0a500; /* Accent color for footer links */
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Additional styles for NeuralNetwork component */
+.NeuralNetwork {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Limit width for responsiveness */
+  border: 2px solid #f0a500; /* Accent border color */
+  border-radius: 10px;
+  background-color: rgb(216, 205, 223); /* Slightly transparent dark background */
+  padding: 20px;
+  flex: 1; /* Allow it to grow */
 }
 
 .t {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 3rem;
-  position: center;
-  text-align: center;
-  margin-left: 260px;
-  background-image: linear-gradient(135deg, #19f190, #0e5253); 
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent; 
-  position: relative; 
-  display: inline-block; 
-  padding: 0.5rem 1rem; 
-  border-radius: 0.5rem; 
-  box-shadow: 0 0.5rem 1rem rgba(11, 54, 65, 0.2); 
-  animation: glowAnimation 2s infinite alternate; 
+  align-items: center; 
+  margin-bottom: 20px;
+  color: #f0a500; /* Accent color */
 }
 
-.text {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/* Controls Section Styles */
+.controls {
+  display: flex; /* Use Flexbox for layout */
+  flex-direction: column; /* Stack controls vertically */
+  align-items: center; /* Center controls horizontally */
+  margin-top: 20px; /* Space between controls and visualizer */
+  width: 100%; /* Full width for controls */
+  max-width: 300px; /* Limit width for better appearance */
+  background-color: rgba(30, 30, 30, 0.9); /* Dark background for the controls */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
 }
 
-.UserInput {
-  font-family:sans-serif;
-  font-size: 2rem; 
-  position: center;
-  margin-top: -190px;
-  text-align: center;
-  background-image: linear-gradient(135deg, #fffc43, #110068); 
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color:rgba(89, 112, 25, 0.592); 
-  backdrop-filter: blur(6px);
-  position: relative; 
-  display: inline-block; 
-  padding: 0.5rem 1rem; 
-  border-radius: 0.5rem; 
-  box-shadow: 0 0.5rem 1rem rgba(62, 166, 192, 0.2); 
-  animation: glowAnimation 2s infinite alternate; 
+.controls h3 {
+  color: #ffffff; /* Text color for section titles in controls */
+  margin-bottom: 10px; /* Space below section titles */
+  text-align: center; /* Center the title */
 }
 
-@keyframes glowAnimation {
-  0% {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  }
-  100% {
-    box-shadow: 0 0.5rem 2rem rgba(5, 67, 48, 0.5);
-  }
+.controls input[type="range"] {
+  width: 100%; /* Full width for sliders */
+  margin: 10px 0; /* Space around sliders */
+  accent-color: #f0a500; /* Accent color for the slider */
 }
 
-.UserInput input[type="number"] {
-  width: 100px;
-  height: 30px;
-  margin-right: 10px;
-  border: 1px solid rgb(43, 20, 94);
-  border-radius: 5px;
-  color: black;
-  padding: 5px;
+.controls input[type="number"] {
+  width: 80px; /* Fixed width for input boxes */
+  height: 35px; /* Height for input boxes */
+  margin-bottom: 10px; /* Space below input boxes */
+  border: 1px solid #f0a500; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  color: black; /* Text color */
+  padding: 5px; /* Padding inside input */
 }
 
-.NeuralNetwork {
-  position: relative;
-  width: 800px;
-  height: 850px;
-  border: 2px solid #333;
-  border-radius: 10px;
-  background-color: rgba(245, 245, 249, 0.896);
-  margin-right: 20px;
-  backdrop-filter: blur(2px);
-  padding: 20px;
-}
-
-.c {
-  position: relative;
-  width: 1000px;
-  height: 600px;
-  border: 2px solid #333;
-  border-radius: 10px;
-  background-color: #fff;
-  margin-right: 20px;
-  padding: 20px;
-}
-
-.NeuralNetwork svg {
-  width: 100%;
-  height: 100%;
-}
-
-.NeuralNetwork button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #354d65;
-  color: #fff;
+button {
+  background-color: #354d65; /* Button background color */
+  color: #fff; /* Button text color */
   border: none;
-  font-size: medium;
-  height: 7%;
-  width: 75%;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition effect */
+  margin-top: 10px; /* Space between buttons */
+  font-size: 16px; /* Button text size */
 }
 
-.NeuralNetwork button:hover {
-  background-color: #0056b3;
+button:hover {
+  background-color: #0056b3; /* Change color on hover */
 }
 
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%; /* Navbar full width on smaller screens */
+    height: auto; /* Auto height */
+  }
+  
+  #root {
+    margin-left: 0; /* No margin on smaller screens */
+  }
+
+  .App {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .visualizer-section {
+    margin-top: 10px; /* Space above visualizer on smaller screens */
+  }
+
+  .about-section {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+}
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181818; /* Dark background */
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  min-height: 100vh; /* Ensure the body takes at least full height */
+  color: white; /* Default text color */
+}
+
+.App {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center align items horizontally */
+  flex: 1; /* Allow the app to grow */
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Header Styles */
+.t {
+  font-size: 3rem; /* Size for the NN VISION text */
+  margin-bottom: 20px; /* Space below the header */
+  color: #f0a500; /* Accent color for header */
+  text-align: center; /* Center the title */
+}
+
+/* Styles for Controls Section */
+.controls {
+  display: flex; /* Use Flexbox for layout */
+  flex-direction: column; /* Stack controls vertically */
+  align-items: center; /* Center controls horizontally */
+  margin-top: 20px; /* Space above controls */
+  margin-left: 220px;
+  width: 100%; /* Full width for controls */
+  max-width: 300px; /* Limit width for better appearance */
+  background-color: rgba(30, 30, 30, 0.9); /* Dark background for the controls */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+/* Title for Controls Section */
+.controls h3 {
+  color: #ffffff; /* Text color for section titles in controls */
+  margin-bottom: 10px; /* Space below section titles */
+  text-align: center; /* Center the title */
+}
+
+/* Slider Styles */
+.controls input[type="range"] {
+  width: 100%; /* Full width for sliders */
+  margin: 10px 0; /* Space around sliders */
+  accent-color: #f0a500; /* Accent color for the slider */
+}
+
+/* Input Box Styles */
+.controls input[type="number"] {
+  width: 80px; /* Fixed width for input boxes */
+  height: 35px; /* Height for input boxes */
+  margin-bottom: 10px; /* Space below input boxes */
+  border: 1px solid #f0a500; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  color: black; /* Text color */
+  padding: 5px; /* Padding inside input */
+}
+
+/* Button Styles for Controls */
+.controls button {
+  background-color: #354d65; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition effect */
+  margin-top: 10px; /* Space above button */
+  font-size: 16px; /* Button text size */
+  width: 100%; /* Full width button */
+  text-align: center; /* Center text in button */
+}
+
+.controls button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+
+/* Set Input Weights Button Styles */
+.set-button {
+  background-color: #354d65; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition effect */
+  margin-top: 10px; /* Space above button */
+  font-size: 16px; /* Button text size */
+  width: 100%; /* Full width button */
+  text-align: center; /* Center text in button */
+}
+
+.set-button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+
+/* Calculate Output Button Styles */
+.calc-button {
+  background-color: #354d65; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition effect */
+  margin-top: 10px; /* Space above button */
+  font-size: 16px; /* Button text size */
+  width: 100%; /* Full width button */
+  text-align: center; /* Center text in button */
+}
+
+.calc-button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c1c1c; /* Dark footer background */
+  color: white;
+  margin-top: auto; /* Push footer to bottom */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+footer a {
+  color: #f0a500; /* Accent color for footer links */
+  text-decoration: none;
+  margin-left: 10px; /* Space between footer text */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%; /* Navbar full width on smaller screens */
+    height: auto; /* Auto height */
+  }
+  
+  #root {
+    margin-left: 0; /* No margin on smaller screens */
+  }
+
+  .App {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .visualizer-section {
+    margin-top: 10px; /* Space above visualizer on smaller screens */
+  }
+
+  .about-section {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+}
+
+/* Styles for NN VISION (tt class) */
+.tt {
+  font-size: 3rem; /* Size of the text */
+  margin-bottom: 20px; /* Space below the header */
+  color: #f0a500; /* Accent color for the header */
+  text-align: center; /* Center the title text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add subtle shadow for depth */
+  font-family: 'Roboto', sans-serif; /* Font family */
+}
+
+/* Optional: Responsive text size */
+@media (max-width: 768px) {
+  .tt {
+    font-size: 2.5rem; /* Smaller text size for smaller screens */
+  }
+}
+
+/* Styles for Architecture Selection Component */
+.architecture-selection {
+  display: flex; /* Use Flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+  margin: 20px 0; /* Margin for spacing */
+  background-color: rgba(30, 30, 30, 0.9); /* Dark background */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.architecture-selection h3 {
+  color: #ffffff; /* White color for heading */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.architecture-dropdown {
+  width: 100%; /* Full width dropdown */
+  max-width: 250px; /* Limit width for better appearance */
+  padding: 10px; /* Padding inside dropdown */
+  border: 1px solid #f0a500; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #ffffff; /* White background for dropdown */
+  color: #000000; /* Black text color */
+  font-size: 16px; /* Font size for dropdown */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: border-color 0.3s; /* Transition for border color */
+}
+
+.architecture-dropdown:hover {
+  border-color: #f0a500; /* Change border color on hover */
+}
+
+/* About Section Styles */
+.about-section {
+  margin-top: 20px; /* Space above the section */
+  max-width: 800px; /* Max width for readability */
+  width: 100%; /* Full width */
+  padding: 20px; /* Padding for spacing */
+  background-color: rgba(30, 30, 30, 0.9); /* Dark background for the section */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  text-align: left; /* Align text to the left */
+  color: #ffffff; /* Text color */
+}
+
+.about-section h2 {
+  font-size: 2.5rem; /* Section title size */
+  margin-bottom: 15px; /* Space below section title */
+  color: #f0a500; /* Accent color for section titles */
+}
+
+.about-section h3 {
+  font-size: 1.75rem; /* Subheading size */
+  margin: 10px 0; /* Space around subheadings */
+  color: #f0a500; /* Accent color for subheadings */
+}
+
+.about-section p {
+  margin: 10px 0; /* Space around paragraphs */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+.about-section ul {
+  list-style-type: disc; /* Bullet points for lists */
+  margin-left: 20px; /* Indent list */
+  padding-left: 10px; /* Padding for list */
+}
+
+.about-section li {
+  margin: 5px 0; /* Space between list items */
+}
+
+/* Responsive styles for the About Section */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .about-section h2 {
+    font-size: 2rem; /* Smaller section title size */
+  }
+
+  .about-section h3 {
+    font-size: 1.5rem; /* Smaller subheading size */
+  }
+}

@@ -6,9 +6,9 @@ function ArchitectureSelection({ setArchitecture }) {
   };
 
   return (
-    <div>
+    <div className="architecture-selection">
       <h3>Select Architecture</h3>
-      <select onChange={handleArchitectureChange}>
+      <select className="architecture-dropdown" onChange={handleArchitectureChange}>
         <option value="FCNN">Fully Connected Neural Network (FCNN)</option>
         <option value="LeNet">LeNet</option>
         <option value="AlexNet">AlexNet</option>
