@@ -1,0 +1,2028 @@
+{
+    "ZN250":[
+     {
+      "Name of the Instrument": "EQUITY & EQUITY RELATED"
+     },
+     {
+      "Name of the Instrument": "a) Listed\/awaiting listing on Stock Exchanges"
+     },
+     {
+      "Name of the Instrument": "HDFC Bank Limited",
+      "ISIN": "INE040A01034",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 199490,
+      "Market value\n(Rs. in Lakhs)": 3582.94,
+      "% to NAV": 0.0507408829540585
+     },
+     {
+      "Name of the Instrument": "ICICI Bank Limited",
+      "ISIN": "INE090A01021",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 185280,
+      "Market value\n(Rs. in Lakhs)": 2408.83,
+      "% to NAV": 0.034113302662849
+     },
+     {
+      "Name of the Instrument": "Reliance Industries Limited",
+      "ISIN": "INE002A01018",
+      "Rating \/ Industry^": "Petroleum Products",
+      "Quantity": 178357,
+      "Market value\n(Rs. in Lakhs)": 2304.73,
+      "% to NAV": 0.0326391141105485
+     },
+     {
+      "Name of the Instrument": "Infosys Limited",
+      "ISIN": "INE009A01021",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 94650,
+      "Market value\n(Rs. in Lakhs)": 1758.46,
+      "% to NAV": 0.0249028889662071
+     },
+     {
+      "Name of the Instrument": "ITC Limited",
+      "ISIN": "INE154A01025",
+      "Rating \/ Industry^": "Diversified FMCG",
+      "Quantity": 244635,
+      "Market value\n(Rs. in Lakhs)": 1166.3,
+      "% to NAV": 0.016516870381668
+     },
+     {
+      "Name of the Instrument": "Larsen & Toubro Limited",
+      "ISIN": "INE018A01030",
+      "Rating \/ Industry^": "Construction",
+      "Quantity": 30959,
+      "Market value\n(Rs. in Lakhs)": 1153.16,
+      "% to NAV": 0.0163308334596018
+     },
+     {
+      "Name of the Instrument": "Tata Consultancy Services Limited",
+      "ISIN": "INE467B01029",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 26879,
+      "Market value\n(Rs. in Lakhs)": 1147.96,
+      "% to NAV": 0.0162572054028592
+     },
+     {
+      "Name of the Instrument": "Bharti Airtel Limited",
+      "ISIN": "INE397D01024",
+      "Rating \/ Industry^": "Telecom - Services",
+      "Quantity": 70490,
+      "Market value\n(Rs. in Lakhs)": 1146.98,
+      "% to NAV": 0.0162432739229617
+     },
+     {
+      "Name of the Instrument": "Axis Bank Limited",
+      "ISIN": "INE238A01034",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 74955,
+      "Market value\n(Rs. in Lakhs)": 851.71,
+      "% to NAV": 0.0120617988682971
+     },
+     {
+      "Name of the Instrument": "State Bank of India",
+      "ISIN": "INE062A01020",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 101181,
+      "Market value\n(Rs. in Lakhs)": 848.86,
+      "% to NAV": 0.0120213575036559
+     },
+     {
+      "Name of the Instrument": "Suzlon Energy Limited",
+      "ISIN": "INE040H01021",
+      "Rating \/ Industry^": "Electrical Equipment",
+      "Quantity": 1263622,
+      "Market value\n(Rs. in Lakhs)": 795.83,
+      "% to NAV": 0.0112703733209892
+     },
+     {
+      "Name of the Instrument": "Max Healthcare Institute Limited",
+      "ISIN": "INE027H01010",
+      "Rating \/ Industry^": "Healthcare Services",
+      "Quantity": 79171,
+      "Market value\n(Rs. in Lakhs)": 775.68,
+      "% to NAV": 0.0109849951564222
+     },
+     {
+      "Name of the Instrument": "The Indian Hotels Company Limited",
+      "ISIN": "INE053A01029",
+      "Rating \/ Industry^": "Leisure Services",
+      "Quantity": 93465,
+      "Market value\n(Rs. in Lakhs)": 741.5,
+      "% to NAV": 0.0105010397757638
+     },
+     {
+      "Name of the Instrument": "Mahindra & Mahindra Limited",
+      "ISIN": "INE101A01026",
+      "Rating \/ Industry^": "Automobiles",
+      "Quantity": 23432,
+      "Market value\n(Rs. in Lakhs)": 695.02,
+      "% to NAV": 0.0098426856405566
+     },
+     {
+      "Name of the Instrument": "Kotak Mahindra Bank Limited",
+      "ISIN": "INE237A01028",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 38616,
+      "Market value\n(Rs. in Lakhs)": 681.67,
+      "% to NAV": 0.00965365942443259
+     },
+     {
+      "Name of the Instrument": "BSE Limited",
+      "ISIN": "INE118H01025",
+      "Rating \/ Industry^": "Capital Markets",
+      "Quantity": 14458,
+      "Market value\n(Rs. in Lakhs)": 675.3,
+      "% to NAV": 0.00956342177805422
+     },
+     {
+      "Name of the Instrument": "Persistent Systems Limited",
+      "ISIN": "INE262H01021",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 11324,
+      "Market value\n(Rs. in Lakhs)": 668.76,
+      "% to NAV": 0.00947078619899553
+     },
+     {
+      "Name of the Instrument": "PB Fintech Limited",
+      "ISIN": "INE417T01026",
+      "Rating \/ Industry^": "Financial Technology (Fintech)",
+      "Quantity": 33777,
+      "Market value\n(Rs. in Lakhs)": 639.7,
+      "% to NAV": 0.0090593405389499
+     },
+     {
+      "Name of the Instrument": "Dixon Technologies (India) Limited",
+      "ISIN": "INE935N01020",
+      "Rating \/ Industry^": "Consumer Durables",
+      "Quantity": 4027,
+      "Market value\n(Rs. in Lakhs)": 636.56,
+      "% to NAV": 0.00901489224160219
+     },
+     {
+      "Name of the Instrument": "Coforge Limited",
+      "ISIN": "INE591G01017",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 7076,
+      "Market value\n(Rs. in Lakhs)": 614.61,
+      "% to NAV": 0.00870399467002331
+     },
+     {
+      "Name of the Instrument": "Hindustan Unilever Limited",
+      "ISIN": "INE030A01027",
+      "Rating \/ Industry^": "Diversified FMCG",
+      "Quantity": 23416,
+      "Market value\n(Rs. in Lakhs)": 584.5,
+      "% to NAV": 0.00827755082787425
+     },
+     {
+      "Name of the Instrument": "The Federal Bank Limited",
+      "ISIN": "INE171A01029",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 260853,
+      "Market value\n(Rs. in Lakhs)": 549.83,
+      "% to NAV": 0.00778652537232743
+     },
+     {
+      "Name of the Instrument": "Lupin Limited",
+      "ISIN": "INE326A01037",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 25696,
+      "Market value\n(Rs. in Lakhs)": 526.96,
+      "% to NAV": 0.00746271250225041
+     },
+     {
+      "Name of the Instrument": "HCL Technologies Limited",
+      "ISIN": "INE860A01027",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 27776,
+      "Market value\n(Rs. in Lakhs)": 513.31,
+      "% to NAV": 0.00726945558989362
+     },
+     {
+      "Name of the Instrument": "Sun Pharmaceutical Industries Limited",
+      "ISIN": "INE044A01036",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 28390,
+      "Market value\n(Rs. in Lakhs)": 505.6,
+      "% to NAV": 0.00716017098766617
+     },
+     {
+      "Name of the Instrument": "Cummins India Limited",
+      "ISIN": "INE298A01020",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 14441,
+      "Market value\n(Rs. in Lakhs)": 503.08,
+      "% to NAV": 0.00712453433242994
+     },
+     {
+      "Name of the Instrument": "CG Power and Industrial Solutions Limited",
+      "ISIN": "INE067A01029",
+      "Rating \/ Industry^": "Electrical Equipment",
+      "Quantity": 68112,
+      "Market value\n(Rs. in Lakhs)": 498.75,
+      "% to NAV": 0.0070631996176544
+     },
+     {
+      "Name of the Instrument": "Bajaj Finance Limited",
+      "ISIN": "INE296A01024",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 7357,
+      "Market value\n(Rs. in Lakhs)": 483.79,
+      "% to NAV": 0.00685132269940511
+     },
+     {
+      "Name of the Instrument": "Indus Towers Limited",
+      "ISIN": "INE121J01017",
+      "Rating \/ Industry^": "Telecom - Services",
+      "Quantity": 132388,
+      "Market value\n(Rs. in Lakhs)": 462.5,
+      "% to NAV": 0.00654979693995006
+     },
+     {
+      "Name of the Instrument": "Zomato Limited",
+      "ISIN": "INE758T01015",
+      "Rating \/ Industry^": "Retailing",
+      "Quantity": 163813,
+      "Market value\n(Rs. in Lakhs)": 458.28,
+      "% to NAV": 0.00649011586744396
+     },
+     {
+      "Name of the Instrument": "HDFC ASSET MANAGEMENT COMPANY Limited",
+      "ISIN": "INE127D01025",
+      "Rating \/ Industry^": "Capital Markets",
+      "Quantity": 10779,
+      "Market value\n(Rs. in Lakhs)": 453.18,
+      "% to NAV": 0.00641778955205888
+     },
+     {
+      "Name of the Instrument": "NTPC Limited",
+      "ISIN": "INE733E01010",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 124538,
+      "Market value\n(Rs. in Lakhs)": 452.88,
+      "% to NAV": 0.00641363064907292
+     },
+     {
+      "Name of the Instrument": "IDFC First Bank Limited",
+      "ISIN": "INE092T01019",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 701774,
+      "Market value\n(Rs. in Lakhs)": 449.7,
+      "% to NAV": 0.00636851599936629
+     },
+     {
+      "Name of the Instrument": "Tata Motors Limited",
+      "ISIN": "INE155A01022",
+      "Rating \/ Industry^": "Automobiles",
+      "Quantity": 55819,
+      "Market value\n(Rs. in Lakhs)": 438.99,
+      "% to NAV": 0.00621686784850552
+     },
+     {
+      "Name of the Instrument": "Colgate Palmolive (India) Limited",
+      "ISIN": "INE259A01022",
+      "Rating \/ Industry^": "Personal Products",
+      "Quantity": 14117,
+      "Market value\n(Rs. in Lakhs)": 407.95,
+      "% to NAV": 0.00577724990662186
+     },
+     {
+      "Name of the Instrument": "Tube Investments of India Limited",
+      "ISIN": "INE974X01010",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 11342,
+      "Market value\n(Rs. in Lakhs)": 407.24,
+      "% to NAV": 0.00576725413265607
+     },
+     {
+      "Name of the Instrument": "Voltas Limited",
+      "ISIN": "INE226A01021",
+      "Rating \/ Industry^": "Consumer Durables",
+      "Quantity": 24330,
+      "Market value\n(Rs. in Lakhs)": 403.45,
+      "% to NAV": 0.00571360985609752
+     },
+     {
+      "Name of the Instrument": "Yes Bank Limited",
+      "ISIN": "INE528G01035",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 2007640,
+      "Market value\n(Rs. in Lakhs)": 400.72,
+      "% to NAV": 0.00567498664711175
+     },
+     {
+      "Name of the Instrument": "Trent Limited",
+      "ISIN": "INE849A01020",
+      "Rating \/ Industry^": "Retailing",
+      "Quantity": 5842,
+      "Market value\n(Rs. in Lakhs)": 396.99,
+      "% to NAV": 0.00562205442587416
+     },
+     {
+      "Name of the Instrument": "Power Grid Corporation of India Limited",
+      "ISIN": "INE752E01010",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 119139,
+      "Market value\n(Rs. in Lakhs)": 392.44,
+      "% to NAV": 0.00555771167389798
+     },
+     {
+      "Name of the Instrument": "Hindustan Petroleum Corporation Limited",
+      "ISIN": "INE094A01015",
+      "Rating \/ Industry^": "Petroleum Products",
+      "Quantity": 102328,
+      "Market value\n(Rs. in Lakhs)": 392.02,
+      "% to NAV": 0.00555168868853811
+     },
+     {
+      "Name of the Instrument": "Maruti Suzuki India Limited",
+      "ISIN": "INE585B01010",
+      "Rating \/ Industry^": "Automobiles",
+      "Quantity": 3461,
+      "Market value\n(Rs. in Lakhs)": 383.28,
+      "% to NAV": 0.00542790738771897
+     },
+     {
+      "Name of the Instrument": "Aurobindo Pharma Limited",
+      "ISIN": "INE406A01037",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 29809,
+      "Market value\n(Rs. in Lakhs)": 376.37,
+      "% to NAV": 0.00533005461557781
+     },
+     {
+      "Name of the Instrument": "POLYCAB INDIA Limited",
+      "ISIN": "INE455K01017",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 5027,
+      "Market value\n(Rs. in Lakhs)": 366.87,
+      "% to NAV": 0.00519547501281046
+     },
+     {
+      "Name of the Instrument": "Fortis Healthcare Limited",
+      "ISIN": "INE061F01013",
+      "Rating \/ Industry^": "Healthcare Services",
+      "Quantity": 55505,
+      "Market value\n(Rs. in Lakhs)": 365.89,
+      "% to NAV": 0.00518164639714967
+     },
+     {
+      "Name of the Instrument": "Bharat Forge Limited",
+      "ISIN": "INE465A01025",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 27156,
+      "Market value\n(Rs. in Lakhs)": 361.79,
+      "% to NAV": 0.0051235384060956
+     },
+     {
+      "Name of the Instrument": "Marico Limited",
+      "ISIN": "INE196A01026",
+      "Rating \/ Industry^": "Agricultural Food & other Products",
+      "Quantity": 56048,
+      "Market value\n(Rs. in Lakhs)": 361.48,
+      "% to NAV": 0.00511922990493178
+     },
+     {
+      "Name of the Instrument": "MphasiS Limited",
+      "ISIN": "INE356A01018",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 12026,
+      "Market value\n(Rs. in Lakhs)": 357.72,
+      "% to NAV": 0.00506595047883531
+     },
+     {
+      "Name of the Instrument": "Ashok Leyland Limited",
+      "ISIN": "INE208A01029",
+      "Rating \/ Industry^": "Agricultural Commercial & Construction Vehicles",
+      "Quantity": 152632,
+      "Market value\n(Rs. in Lakhs)": 354.23,
+      "% to NAV": 0.0050165111042064
+     },
+     {
+      "Name of the Instrument": "Titan Company Limited",
+      "ISIN": "INE280A01028",
+      "Rating \/ Industry^": "Consumer Durables",
+      "Quantity": 10881,
+      "Market value\n(Rs. in Lakhs)": 353.52,
+      "% to NAV": 0.00500653191229262
+     },
+     {
+      "Name of the Instrument": "PI Industries Litmited",
+      "ISIN": "INE603J01030",
+      "Rating \/ Industry^": "Fertilizers & Agrochemicals",
+      "Quantity": 8649,
+      "Market value\n(Rs. in Lakhs)": 351.63,
+      "% to NAV": 0.00497964438898119
+     },
+     {
+      "Name of the Instrument": "SRF Limited",
+      "ISIN": "INE647A01010",
+      "Rating \/ Industry^": "Chemicals & Petrochemicals",
+      "Quantity": 15465,
+      "Market value\n(Rs. in Lakhs)": 350.28,
+      "% to NAV": 0.00496062728620722
+     },
+     {
+      "Name of the Instrument": "AU Small Finance Bank Limited",
+      "ISIN": "INE949L01017",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 59691,
+      "Market value\n(Rs. in Lakhs)": 348.21,
+      "% to NAV": 0.00493124436162465
+     },
+     {
+      "Name of the Instrument": "Godrej Properties Limited",
+      "ISIN": "INE484J01027",
+      "Rating \/ Industry^": "Realty",
+      "Quantity": 12323,
+      "Market value\n(Rs. in Lakhs)": 342.1,
+      "% to NAV": 0.00484482220165496
+     },
+     {
+      "Name of the Instrument": "UltraTech Cement Limited",
+      "ISIN": "INE481G01011",
+      "Rating \/ Industry^": "Cement & Cement Products",
+      "Quantity": 3001,
+      "Market value\n(Rs. in Lakhs)": 336.18,
+      "% to NAV": 0.00476086477557777
+     },
+     {
+      "Name of the Instrument": "Phoenix Mills Limited",
+      "ISIN": "INE211B01039",
+      "Rating \/ Industry^": "Realty",
+      "Quantity": 19861,
+      "Market value\n(Rs. in Lakhs)": 328.95,
+      "% to NAV": 0.00465849324202319
+     },
+     {
+      "Name of the Instrument": "One 97 Communications Limited",
+      "ISIN": "INE982J01020",
+      "Rating \/ Industry^": "Financial Technology (Fintech)",
+      "Quantity": 35970,
+      "Market value\n(Rs. in Lakhs)": 324.36,
+      "% to NAV": 0.00459351412246795
+     },
+     {
+      "Name of the Instrument": "Sona BLW Precision Forgings Limited",
+      "ISIN": "INE073K01018",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 47715,
+      "Market value\n(Rs. in Lakhs)": 320.45,
+      "% to NAV": 0.00453820471558753
+     },
+     {
+      "Name of the Instrument": "Supreme Industries Limited",
+      "ISIN": "INE195A01028",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 6883,
+      "Market value\n(Rs. in Lakhs)": 320.14,
+      "% to NAV": 0.00453369096745142
+     },
+     {
+      "Name of the Instrument": "GMR Infrastructure Limited",
+      "ISIN": "INE776C01039",
+      "Rating \/ Industry^": "Transport Infrastructure",
+      "Quantity": 382041,
+      "Market value\n(Rs. in Lakhs)": 317.9,
+      "% to NAV": 0.00450198415657777
+     },
+     {
+      "Name of the Instrument": "Tata Steel Limited",
+      "ISIN": "INE081A01020",
+      "Rating \/ Industry^": "Ferrous Metals",
+      "Quantity": 217941,
+      "Market value\n(Rs. in Lakhs)": 315.01,
+      "% to NAV": 0.00446113593474235
+     },
+     {
+      "Name of the Instrument": "Alkem Laboratories Limited",
+      "ISIN": "INE540L01014",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 5570,
+      "Market value\n(Rs. in Lakhs)": 314.28,
+      "% to NAV": 0.00445083384245145
+     },
+     {
+      "Name of the Instrument": "Max Financial Services Limited",
+      "ISIN": "INE180A01020",
+      "Rating \/ Industry^": "Insurance",
+      "Quantity": 26305,
+      "Market value\n(Rs. in Lakhs)": 298.29,
+      "% to NAV": 0.00422426036720319
+     },
+     {
+      "Name of the Instrument": "Prestige Estates Projects Limited",
+      "ISIN": "INE811K01011",
+      "Rating \/ Industry^": "Realty",
+      "Quantity": 17968,
+      "Market value\n(Rs. in Lakhs)": 296.57,
+      "% to NAV": 0.00419997679536248
+     },
+     {
+      "Name of the Instrument": "Asian Paints Limited",
+      "ISIN": "INE021A01026",
+      "Rating \/ Industry^": "Consumer Durables",
+      "Quantity": 11896,
+      "Market value\n(Rs. in Lakhs)": 294.97,
+      "% to NAV": 0.00417735178984917
+     },
+     {
+      "Name of the Instrument": "UPL Limited",
+      "ISIN": "INE628A01036",
+      "Rating \/ Industry^": "Fertilizers & Agrochemicals",
+      "Quantity": 53921,
+      "Market value\n(Rs. in Lakhs)": 293.87,
+      "% to NAV": 0.00416172047613805
+     },
+     {
+      "Name of the Instrument": "Oracle Financial Services Software Limited",
+      "ISIN": "INE881D01027",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 2509,
+      "Market value\n(Rs. in Lakhs)": 293.46,
+      "% to NAV": 0.00415597758994616
+     },
+     {
+      "Name of the Instrument": "APL Apollo Tubes Limited",
+      "ISIN": "INE702C01027",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 19272,
+      "Market value\n(Rs. in Lakhs)": 292.24,
+      "% to NAV": 0.00413865314095301
+     },
+     {
+      "Name of the Instrument": "Page Industries Limited",
+      "ISIN": "INE761H01022",
+      "Rating \/ Industry^": "Textiles & Apparels",
+      "Quantity": 653,
+      "Market value\n(Rs. in Lakhs)": 291.53,
+      "% to NAV": 0.00412860660401391
+     },
+     {
+      "Name of the Instrument": "Bharat Electronics Limited",
+      "ISIN": "INE263A01024",
+      "Rating \/ Industry^": "Aerospace & Defense",
+      "Quantity": 94064,
+      "Market value\n(Rs. in Lakhs)": 289.72,
+      "% to NAV": 0.00410291600774339
+     },
+     {
+      "Name of the Instrument": "Sundaram Finance Limited",
+      "ISIN": "INE660A01013",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 7258,
+      "Market value\n(Rs. in Lakhs)": 288.03,
+      "% to NAV": 0.0040789733883267
+     },
+     {
+      "Name of the Instrument": "Tech Mahindra Limited",
+      "ISIN": "INE669C01036",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 16688,
+      "Market value\n(Rs. in Lakhs)": 285.75,
+      "% to NAV": 0.00404671495975193
+     },
+     {
+      "Name of the Instrument": "Oil India Limited",
+      "ISIN": "INE274J01014",
+      "Rating \/ Industry^": "Oil",
+      "Quantity": 58091,
+      "Market value\n(Rs. in Lakhs)": 284.99,
+      "% to NAV": 0.00403603444149714
+     },
+     {
+      "Name of the Instrument": "Jio Financial Services Limited",
+      "ISIN": "INE758E01017",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 86269,
+      "Market value\n(Rs. in Lakhs)": 283.26,
+      "% to NAV": 0.00401153191406141
+     },
+     {
+      "Name of the Instrument": "NMDC Limited",
+      "ISIN": "INE584A01023",
+      "Rating \/ Industry^": "Minerals & Mining",
+      "Quantity": 122717,
+      "Market value\n(Rs. in Lakhs)": 282.34,
+      "% to NAV": 0.00399837192514467
+     },
+     {
+      "Name of the Instrument": "Solar Industries India Limited",
+      "ISIN": "INE343H01029",
+      "Rating \/ Industry^": "Chemicals & Petrochemicals",
+      "Quantity": 2594,
+      "Market value\n(Rs. in Lakhs)": 277.07,
+      "% to NAV": 0.00392381466453177
+     },
+     {
+      "Name of the Instrument": "MRF Limited",
+      "ISIN": "INE883A01011",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 215,
+      "Market value\n(Rs. in Lakhs)": 269.29,
+      "% to NAV": 0.00381363539056801
+     },
+     {
+      "Name of the Instrument": "Torrent Power Limited",
+      "ISIN": "INE813H01021",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 17808,
+      "Market value\n(Rs. in Lakhs)": 269.03,
+      "% to NAV": 0.00380988479352847
+     },
+     {
+      "Name of the Instrument": "Petronet LNG Limited",
+      "ISIN": "INE347G01014",
+      "Rating \/ Industry^": "Gas",
+      "Quantity": 79846,
+      "Market value\n(Rs. in Lakhs)": 265.97,
+      "% to NAV": 0.00376657191852281
+     },
+     {
+      "Name of the Instrument": "Rail Vikas Nigam Limited",
+      "ISIN": "INE415G01027",
+      "Rating \/ Industry^": "Construction",
+      "Quantity": 60483,
+      "Market value\n(Rs. in Lakhs)": 263.62,
+      "% to NAV": 0.00373326519808257
+     },
+     {
+      "Name of the Instrument": "Bajaj Auto Limited",
+      "ISIN": "INE917I01010",
+      "Rating \/ Industry^": "Automobiles",
+      "Quantity": 2917,
+      "Market value\n(Rs. in Lakhs)": 263.51,
+      "% to NAV": 0.00373179824799463
+     },
+     {
+      "Name of the Instrument": "Jubilant Foodworks Limited",
+      "ISIN": "INE797F01020",
+      "Rating \/ Industry^": "Leisure Services",
+      "Quantity": 40662,
+      "Market value\n(Rs. in Lakhs)": 262.09,
+      "% to NAV": 0.00371162264622497
+     },
+     {
+      "Name of the Instrument": "Oil & Natural Gas Corporation Limited",
+      "ISIN": "INE213A01029",
+      "Rating \/ Industry^": "Oil",
+      "Quantity": 102024,
+      "Market value\n(Rs. in Lakhs)": 261.9,
+      "% to NAV": 0.00370891330971703
+     },
+     {
+      "Name of the Instrument": "KEI INDUSTRIES LTD-INR 2 DEMAT EQ-INR 2",
+      "ISIN": "INE878B01027",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 6001,
+      "Market value\n(Rs. in Lakhs)": 258.84,
+      "% to NAV": 0.00366561395214979
+     },
+     {
+      "Name of the Instrument": "Mankind Pharma Ltd",
+      "ISIN": "INE634S01028",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 10059,
+      "Market value\n(Rs. in Lakhs)": 257.63,
+      "% to NAV": 0.00364852031217853
+     },
+     {
+      "Name of the Instrument": "Grasim Industries Limited",
+      "ISIN": "INE047A01021",
+      "Rating \/ Industry^": "Cement & Cement Products",
+      "Quantity": 9784,
+      "Market value\n(Rs. in Lakhs)": 255,
+      "% to NAV": 0.00361119535791509
+     },
+     {
+      "Name of the Instrument": "Oberoi Realty Limited",
+      "ISIN": "INE093I01010",
+      "Rating \/ Industry^": "Realty",
+      "Quantity": 12537,
+      "Market value\n(Rs. in Lakhs)": 251.66,
+      "% to NAV": 0.00356397948365555
+     },
+     {
+      "Name of the Instrument": "Hindalco Industries Limited",
+      "ISIN": "INE038A01020",
+      "Rating \/ Industry^": "Non - Ferrous Metals",
+      "Quantity": 38267,
+      "Market value\n(Rs. in Lakhs)": 251.11,
+      "% to NAV": 0.00355614212384098
+     },
+     {
+      "Name of the Instrument": "FSN E-Commerce Ventures Limited",
+      "ISIN": "INE388Y01029",
+      "Rating \/ Industry^": "Retailing",
+      "Quantity": 144981,
+      "Market value\n(Rs. in Lakhs)": 249.45,
+      "% to NAV": 0.00353272211167741
+     },
+     {
+      "Name of the Instrument": "Coal India Limited",
+      "ISIN": "INE522F01014",
+      "Rating \/ Industry^": "Consumable Fuels",
+      "Quantity": 59653,
+      "Market value\n(Rs. in Lakhs)": 248.4,
+      "% to NAV": 0.00351772169767424
+     },
+     {
+      "Name of the Instrument": "Tata Elxsi Limited",
+      "ISIN": "INE670A01012",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 3692,
+      "Market value\n(Rs. in Lakhs)": 246.28,
+      "% to NAV": 0.00348782610883856
+     },
+     {
+      "Name of the Instrument": "JSW Steel Limited",
+      "ISIN": "INE019A01038",
+      "Rating \/ Industry^": "Ferrous Metals",
+      "Quantity": 25223,
+      "Market value\n(Rs. in Lakhs)": 243.65,
+      "% to NAV": 0.00345058184851343
+     },
+     {
+      "Name of the Instrument": "Container Corporation of India Limited",
+      "ISIN": "INE111A01025",
+      "Rating \/ Industry^": "Transport Services",
+      "Quantity": 29339,
+      "Market value\n(Rs. in Lakhs)": 243.03,
+      "% to NAV": 0.00344173676331045
+     },
+     {
+      "Name of the Instrument": "KALYAN JEWELLERS INDIA LTD",
+      "ISIN": "INE303R01014",
+      "Rating \/ Industry^": "Consumer Durables",
+      "Quantity": 33291,
+      "Market value\n(Rs. in Lakhs)": 241.18,
+      "% to NAV": 0.00341549555624281
+     },
+     {
+      "Name of the Instrument": "Balkrishna Industries Limited",
+      "ISIN": "INE787D01026",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 8561,
+      "Market value\n(Rs. in Lakhs)": 238.01,
+      "% to NAV": 0.00337063085947978
+     },
+     {
+      "Name of the Instrument": "KPIT Technologies Limited",
+      "ISIN": "INE04I401011",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 17355,
+      "Market value\n(Rs. in Lakhs)": 237.56,
+      "% to NAV": 0.00336420987796414
+     },
+     {
+      "Name of the Instrument": "JSL STAINLESS LTD",
+      "ISIN": "INE220G01021",
+      "Rating \/ Industry^": "Ferrous Metals",
+      "Quantity": 34739,
+      "Market value\n(Rs. in Lakhs)": 237.34,
+      "% to NAV": 0.00336111705406487
+     },
+     {
+      "Name of the Instrument": "Astral Limited",
+      "ISIN": "INE006I01046",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 13168,
+      "Market value\n(Rs. in Lakhs)": 235.77,
+      "% to NAV": 0.00333897071740297
+     },
+     {
+      "Name of the Instrument": "Adani Ports and Special Economic Zone Limited",
+      "ISIN": "INE742F01042",
+      "Rating \/ Industry^": "Transport Infrastructure",
+      "Quantity": 19385,
+      "Market value\n(Rs. in Lakhs)": 230.69,
+      "% to NAV": 0.00326700260776326
+     },
+     {
+      "Name of the Instrument": "Bajaj Finserv Limited",
+      "ISIN": "INE918I01026",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 14328,
+      "Market value\n(Rs. in Lakhs)": 226.38,
+      "% to NAV": 0.0032058808935457
+     },
+     {
+      "Name of the Instrument": "Hindustan Aeronautics Limited",
+      "ISIN": "INE066F01020",
+      "Rating \/ Industry^": "Aerospace & Defense",
+      "Quantity": 4983,
+      "Market value\n(Rs. in Lakhs)": 223.08,
+      "% to NAV": 0.00315923474851374
+     },
+     {
+      "Name of the Instrument": "SBI Cards & Payment Services Limited",
+      "ISIN": "INE018E01016",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 31801,
+      "Market value\n(Rs. in Lakhs)": 222.8,
+      "% to NAV": 0.00315521804416496
+     },
+     {
+      "Name of the Instrument": "Coromandel International Limited",
+      "ISIN": "INE169A01031",
+      "Rating \/ Industry^": "Fertilizers & Agrochemicals",
+      "Quantity": 12449,
+      "Market value\n(Rs. in Lakhs)": 222.71,
+      "% to NAV": 0.00315401151542342
+     },
+     {
+      "Name of the Instrument": "IPCA Laboratories Limited",
+      "ISIN": "INE571A01038",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 14431,
+      "Market value\n(Rs. in Lakhs)": 222.61,
+      "% to NAV": 0.00315249309427216
+     },
+     {
+      "Name of the Instrument": "Shriram Finance Ltd",
+      "ISIN": "INE721A01013",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 7332,
+      "Market value\n(Rs. in Lakhs)": 221.4,
+      "% to NAV": 0.0031354330460913
+     },
+     {
+      "Name of the Instrument": "Cipla Limited",
+      "ISIN": "INE059A01026",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 14417,
+      "Market value\n(Rs. in Lakhs)": 221.14,
+      "% to NAV": 0.00313177399092915
+     },
+     {
+      "Name of the Instrument": "Tata Communications Limited",
+      "ISIN": "INE151A01013",
+      "Rating \/ Industry^": "Telecom - Services",
+      "Quantity": 12481,
+      "Market value\n(Rs. in Lakhs)": 219.05,
+      "% to NAV": 0.00310219945010711
+     },
+     {
+      "Name of the Instrument": "Exide Industries Ltd.",
+      "ISIN": "INE302A01020",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 48379,
+      "Market value\n(Rs. in Lakhs)": 218.96,
+      "% to NAV": 0.00310091530053792
+     },
+     {
+      "Name of the Instrument": "Muthoot Finance Limited",
+      "ISIN": "INE414G01012",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 11393,
+      "Market value\n(Rs. in Lakhs)": 218.41,
+      "% to NAV": 0.0030930718228256
+     },
+     {
+      "Name of the Instrument": "Indian Bank",
+      "ISIN": "INE562A01011",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 37550,
+      "Market value\n(Rs. in Lakhs)": 215.65,
+      "% to NAV": 0.00305398728611295
+     },
+     {
+      "Name of the Instrument": "Wipro Limited",
+      "ISIN": "INE075A01022",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 37094,
+      "Market value\n(Rs. in Lakhs)": 214.35,
+      "% to NAV": 0.00303554903276597
+     },
+     {
+      "Name of the Instrument": "Nestle India Limited",
+      "ISIN": "INE239A01024",
+      "Rating \/ Industry^": "Food Products",
+      "Quantity": 9398,
+      "Market value\n(Rs. in Lakhs)": 210.01,
+      "% to NAV": 0.00297415377629399
+     },
+     {
+      "Name of the Instrument": "Vodafone Idea Limited",
+      "ISIN": "INE669E01016",
+      "Rating \/ Industry^": "Telecom - Services",
+      "Quantity": 2507855,
+      "Market value\n(Rs. in Lakhs)": 209.66,
+      "% to NAV": 0.0029691160132218
+     },
+     {
+      "Name of the Instrument": "Divi's Laboratories Limited",
+      "ISIN": "INE361B01024",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 3330,
+      "Market value\n(Rs. in Lakhs)": 205.55,
+      "% to NAV": 0.00291097094657444
+     },
+     {
+      "Name of the Instrument": "LIC Housing Finance Limited",
+      "ISIN": "INE115A01026",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 31958,
+      "Market value\n(Rs. in Lakhs)": 204.15,
+      "% to NAV": 0.00289109902337031
+     },
+     {
+      "Name of the Instrument": "Vedanta Limited",
+      "ISIN": "INE205A01025",
+      "Rating \/ Industry^": "Diversified Metals",
+      "Quantity": 44472,
+      "Market value\n(Rs. in Lakhs)": 201.68,
+      "% to NAV": 0.00285615925616688
+     },
+     {
+      "Name of the Instrument": "Minda Industries Ltd",
+      "ISIN": "INE405E01023",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 18999,
+      "Market value\n(Rs. in Lakhs)": 199.73,
+      "% to NAV": 0.00282849371894941
+     },
+     {
+      "Name of the Instrument": "Deepak Nitrite Limited",
+      "ISIN": "INE288B01029",
+      "Rating \/ Industry^": "Chemicals & Petrochemicals",
+      "Quantity": 7310,
+      "Market value\n(Rs. in Lakhs)": 199.36,
+      "% to NAV": 0.00282332448480379
+     },
+     {
+      "Name of the Instrument": "InterGlobe Aviation Limited",
+      "ISIN": "INE646L01027",
+      "Rating \/ Industry^": "Transport Services",
+      "Quantity": 4536,
+      "Market value\n(Rs. in Lakhs)": 198.63,
+      "% to NAV": 0.00281291455606803
+     },
+     {
+      "Name of the Instrument": "Varun Beverages Limited",
+      "ISIN": "INE200M01039",
+      "Rating \/ Industry^": "Beverages",
+      "Quantity": 31654,
+      "Market value\n(Rs. in Lakhs)": 196.63,
+      "% to NAV": 0.00278470062437521
+     },
+     {
+      "Name of the Instrument": "Dr. Reddys Laboratories Limited",
+      "ISIN": "INE089A01031",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 15998,
+      "Market value\n(Rs. in Lakhs)": 192.34,
+      "% to NAV": 0.00272393667263867
+     },
+     {
+      "Name of the Instrument": "JK Cement Limited",
+      "ISIN": "INE823G01014",
+      "Rating \/ Industry^": "Cement & Cement Products",
+      "Quantity": 4445,
+      "Market value\n(Rs. in Lakhs)": 190.17,
+      "% to NAV": 0.00269312425593005
+     },
+     {
+      "Name of the Instrument": "Patanjali Foods Limited",
+      "ISIN": "INE619A01035",
+      "Rating \/ Industry^": "Agricultural Food & other Products",
+      "Quantity": 10488,
+      "Market value\n(Rs. in Lakhs)": 189.86,
+      "% to NAV": 0.00268881979796022
+     },
+     {
+      "Name of the Instrument": "Power Finance Corporation Limited",
+      "ISIN": "INE134E01011",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 38149,
+      "Market value\n(Rs. in Lakhs)": 188.95,
+      "% to NAV": 0.00267590045485189
+     },
+     {
+      "Name of the Instrument": "Thermax Limited",
+      "ISIN": "INE152A01029",
+      "Rating \/ Industry^": "Electrical Equipment",
+      "Quantity": 4115,
+      "Market value\n(Rs. in Lakhs)": 188.88,
+      "% to NAV": 0.00267491788082089
+     },
+     {
+      "Name of the Instrument": "Tata Chemicals Limited",
+      "ISIN": "INE092A01019",
+      "Rating \/ Industry^": "Chemicals & Petrochemicals",
+      "Quantity": 16643,
+      "Market value\n(Rs. in Lakhs)": 185.03,
+      "% to NAV": 0.00262033741720834
+     },
+     {
+      "Name of the Instrument": "HDFC Life Insurance Company Limited",
+      "ISIN": "INE795G01014",
+      "Rating \/ Industry^": "Insurance",
+      "Quantity": 27999,
+      "Market value\n(Rs. in Lakhs)": 184.16,
+      "% to NAV": 0.00260808561888251
+     },
+     {
+      "Name of the Instrument": "Tata Power Company Limited",
+      "ISIN": "INE245A01021",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 44291,
+      "Market value\n(Rs. in Lakhs)": 183.43,
+      "% to NAV": 0.00259771569723271
+     },
+     {
+      "Name of the Instrument": "Apollo Hospitals Enterprise Limited",
+      "ISIN": "INE437A01024",
+      "Rating \/ Industry^": "Healthcare Services",
+      "Quantity": 2656,
+      "Market value\n(Rs. in Lakhs)": 181.38,
+      "% to NAV": 0.00256860480667282
+     },
+     {
+      "Name of the Instrument": "Syngene International Limited",
+      "ISIN": "INE398R01022",
+      "Rating \/ Industry^": "Healthcare Services",
+      "Quantity": 19175,
+      "Market value\n(Rs. in Lakhs)": 180.4,
+      "% to NAV": 0.00255476612197199
+     },
+     {
+      "Name of the Instrument": "Apollo Tyres Limited",
+      "ISIN": "INE438A01022",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 35368,
+      "Market value\n(Rs. in Lakhs)": 180.25,
+      "% to NAV": 0.00255270716614455
+     },
+     {
+      "Name of the Instrument": "Steel Authority of India Limited",
+      "ISIN": "INE114A01011",
+      "Rating \/ Industry^": "Ferrous Metals",
+      "Quantity": 153615,
+      "Market value\n(Rs. in Lakhs)": 179.9,
+      "% to NAV": 0.00254768701327108
+     },
+     {
+      "Name of the Instrument": "Siemens Limited",
+      "ISIN": "INE003A01024",
+      "Rating \/ Industry^": "Electrical Equipment",
+      "Quantity": 2316,
+      "Market value\n(Rs. in Lakhs)": 175.11,
+      "% to NAV": 0.00247986274554267
+     },
+     {
+      "Name of the Instrument": "Biocon Limited",
+      "ISIN": "INE376G01013",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 47815,
+      "Market value\n(Rs. in Lakhs)": 174.6,
+      "% to NAV": 0.00247260038314539
+     },
+     {
+      "Name of the Instrument": "Eicher Motors Limited",
+      "ISIN": "INE066A01021",
+      "Rating \/ Industry^": "Automobiles",
+      "Quantity": 3608,
+      "Market value\n(Rs. in Lakhs)": 174.33,
+      "% to NAV": 0.00246887123415246
+     },
+     {
+      "Name of the Instrument": "REC Limited",
+      "ISIN": "INE020B01018",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 32726,
+      "Market value\n(Rs. in Lakhs)": 174.3,
+      "% to NAV": 0.00246838304857123
+     },
+     {
+      "Name of the Instrument": "IndusInd Bank Limited",
+      "ISIN": "INE095A01012",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 17329,
+      "Market value\n(Rs. in Lakhs)": 172.57,
+      "% to NAV": 0.0024439138721753
+     },
+     {
+      "Name of the Instrument": "Carborundum Universal Limited",
+      "ISIN": "INE120A01034",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 11819,
+      "Market value\n(Rs. in Lakhs)": 172.46,
+      "% to NAV": 0.00244230072982248
+     },
+     {
+      "Name of the Instrument": "Mahindra & Mahindra Financial Services Limited",
+      "ISIN": "INE774D01024",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 62861,
+      "Market value\n(Rs. in Lakhs)": 171.86,
+      "% to NAV": 0.00243387496136569
+     },
+     {
+      "Name of the Instrument": "Gujarat Fluorochemicals Limited",
+      "ISIN": "INE09N301011",
+      "Rating \/ Industry^": "Chemicals & Petrochemicals",
+      "Quantity": 4340,
+      "Market value\n(Rs. in Lakhs)": 171.74,
+      "% to NAV": 0.00243218271119618
+     },
+     {
+      "Name of the Instrument": "Info Edge (India) Limited",
+      "ISIN": "INE663F01024",
+      "Rating \/ Industry^": "Retailing",
+      "Quantity": 2050,
+      "Market value\n(Rs. in Lakhs)": 169.23,
+      "% to NAV": 0.0023966531616559
+     },
+     {
+      "Name of the Instrument": "SBI Life Insurance Company Limited",
+      "ISIN": "INE123W01016",
+      "Rating \/ Industry^": "Insurance",
+      "Quantity": 11735,
+      "Market value\n(Rs. in Lakhs)": 168.72,
+      "% to NAV": 0.00238937842184512
+     },
+     {
+      "Name of the Instrument": "Delhivery Ltd",
+      "ISIN": "INE148O01028",
+      "Rating \/ Industry^": "Transport Services",
+      "Quantity": 49253,
+      "Market value\n(Rs. in Lakhs)": 165.47,
+      "% to NAV": 0.00234328871519111
+     },
+     {
+      "Name of the Instrument": "Tata Consumer Products Limited",
+      "ISIN": "INE192A01025",
+      "Rating \/ Industry^": "Agricultural Food & other Products",
+      "Quantity": 17066,
+      "Market value\n(Rs. in Lakhs)": 163.6,
+      "% to NAV": 0.00231691598040284
+     },
+     {
+      "Name of the Instrument": "Hero MotoCorp Limited",
+      "ISIN": "INE158A01026",
+      "Rating \/ Industry^": "Automobiles",
+      "Quantity": 3400,
+      "Market value\n(Rs. in Lakhs)": 161.9,
+      "% to NAV": 0.00229276431865137
+     },
+     {
+      "Name of the Instrument": "ACC Limited",
+      "ISIN": "INE012A01025",
+      "Rating \/ Industry^": "Cement & Cement Products",
+      "Quantity": 7250,
+      "Market value\n(Rs. in Lakhs)": 161.13,
+      "% to NAV": 0.00228195992712902
+     },
+     {
+      "Name of the Instrument": "Hindustan Zinc Limited",
+      "ISIN": "INE267A01025",
+      "Rating \/ Industry^": "Non - Ferrous Metals",
+      "Quantity": 31762,
+      "Market value\n(Rs. in Lakhs)": 160.27,
+      "% to NAV": 0.00226972663827624
+     },
+     {
+      "Name of the Instrument": "Procter & Gamble Hygiene and Health Care Limited",
+      "ISIN": "INE179A01014",
+      "Rating \/ Industry^": "Personal Products",
+      "Quantity": 1008,
+      "Market value\n(Rs. in Lakhs)": 160.18,
+      "% to NAV": 0.00226848385532583
+     },
+     {
+      "Name of the Instrument": "United Breweries Limited",
+      "ISIN": "INE686F01025",
+      "Rating \/ Industry^": "Beverages",
+      "Quantity": 8019,
+      "Market value\n(Rs. in Lakhs)": 156.41,
+      "% to NAV": 0.00221505561703143
+     },
+     {
+      "Name of the Instrument": "Linde India Limited",
+      "ISIN": "INE473A01011",
+      "Rating \/ Industry^": "Chemicals & Petrochemicals",
+      "Quantity": 2241,
+      "Market value\n(Rs. in Lakhs)": 155.09,
+      "% to NAV": 0.00219641036772982
+     },
+     {
+      "Name of the Instrument": "Dalmia Bharat Limited",
+      "ISIN": "INE00R701025",
+      "Rating \/ Industry^": "Cement & Cement Products",
+      "Quantity": 8513,
+      "Market value\n(Rs. in Lakhs)": 154.97,
+      "% to NAV": 0.00219460315206517
+     },
+     {
+      "Name of the Instrument": "L&T Technology Services Limited",
+      "ISIN": "INE010V01017",
+      "Rating \/ Industry^": "IT - Services",
+      "Quantity": 2915,
+      "Market value\n(Rs. in Lakhs)": 154.06,
+      "% to NAV": 0.00218181765921273
+     },
+     {
+      "Name of the Instrument": "Abbott India Limited",
+      "ISIN": "INE358A01014",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 555,
+      "Market value\n(Rs. in Lakhs)": 153.86,
+      "% to NAV": 0.0021790035678677
+     },
+     {
+      "Name of the Instrument": "Schaeffler India Limited",
+      "ISIN": "INE513A01022",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 4290,
+      "Market value\n(Rs. in Lakhs)": 153.76,
+      "% to NAV": 0.00217754929259106
+     },
+     {
+      "Name of the Instrument": "Britannia Industries Limited",
+      "ISIN": "INE216A01030",
+      "Rating \/ Industry^": "Food Products",
+      "Quantity": 3092,
+      "Market value\n(Rs. in Lakhs)": 152.78,
+      "% to NAV": 0.00216364492546027
+     },
+     {
+      "Name of the Instrument": "Adani Enterprises Limited",
+      "ISIN": "INE423A01024",
+      "Rating \/ Industry^": "Metals & Minerals Trading",
+      "Quantity": 6189,
+      "Market value\n(Rs. in Lakhs)": 152.44,
+      "% to NAV": 0.00215888649681883
+     },
+     {
+      "Name of the Instrument": "TVS Motor Company Limited",
+      "ISIN": "INE494B01023",
+      "Rating \/ Industry^": "Automobiles",
+      "Quantity": 6177,
+      "Market value\n(Rs. in Lakhs)": 150.38,
+      "% to NAV": 0.00212959455472253
+     },
+     {
+      "Name of the Instrument": "Mazagon Dock Shipbuilders Limited",
+      "ISIN": "INE249Z01012",
+      "Rating \/ Industry^": "Industrial Manufacturing",
+      "Quantity": 3268,
+      "Market value\n(Rs. in Lakhs)": 150.14,
+      "% to NAV": 0.00212620769644376
+     },
+     {
+      "Name of the Instrument": "LTIMindtree Ltd",
+      "ISIN": "INE214T01019",
+      "Rating \/ Industry^": "IT - Software",
+      "Quantity": 2430,
+      "Market value\n(Rs. in Lakhs)": 149.99,
+      "% to NAV": 0.0021241188025704
+     },
+     {
+      "Name of the Instrument": "Berger Paints (I) Limited",
+      "ISIN": "INE463A01038",
+      "Rating \/ Industry^": "Consumer Durables",
+      "Quantity": 30332,
+      "Market value\n(Rs. in Lakhs)": 149.75,
+      "% to NAV": 0.00212071662830457
+     },
+     {
+      "Name of the Instrument": "Bandhan Bank Limited",
+      "ISIN": "INE545U01014",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 88436,
+      "Market value\n(Rs. in Lakhs)": 149.53,
+      "% to NAV": 0.00211757985750649
+     },
+     {
+      "Name of the Instrument": "Bharat Petroleum Corporation Limited",
+      "ISIN": "INE029A01011",
+      "Rating \/ Industry^": "Petroleum Products",
+      "Quantity": 50905,
+      "Market value\n(Rs. in Lakhs)": 148.69,
+      "% to NAV": 0.0021057677292663
+     },
+     {
+      "Name of the Instrument": "Aditya Birla Capital Limited",
+      "ISIN": "INE674K01013",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 75812,
+      "Market value\n(Rs. in Lakhs)": 147.33,
+      "% to NAV": 0.00208639374345911
+     },
+     {
+      "Name of the Instrument": "Gland Pharma Limited",
+      "ISIN": "INE068V01023",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 8476,
+      "Market value\n(Rs. in Lakhs)": 147.31,
+      "% to NAV": 0.00208621559367559
+     },
+     {
+      "Name of the Instrument": "Indian Renewable Energy Development Agency Ltd.",
+      "ISIN": "INE202E01016",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 71766,
+      "Market value\n(Rs. in Lakhs)": 147.24,
+      "% to NAV": 0.00208511445138744
+     },
+     {
+      "Name of the Instrument": "AIA Engineering Limited",
+      "ISIN": "INE212H01026",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 4183,
+      "Market value\n(Rs. in Lakhs)": 146.37,
+      "% to NAV": 0.00207291408730426
+     },
+     {
+      "Name of the Instrument": "Lloyds Metals & Energy Ltd",
+      "ISIN": "INE281B01032",
+      "Rating \/ Industry^": "Ferrous Metals",
+      "Quantity": 13897,
+      "Market value\n(Rs. in Lakhs)": 144.46,
+      "% to NAV": 0.00204580397589602
+     },
+     {
+      "Name of the Instrument": "Avenue Supermarts Limited",
+      "ISIN": "INE192R01011",
+      "Rating \/ Industry^": "Retailing",
+      "Quantity": 3888,
+      "Market value\n(Rs. in Lakhs)": 144.23,
+      "% to NAV": 0.00204254581297781
+     },
+     {
+      "Name of the Instrument": "Emami Limited",
+      "ISIN": "INE548C01032",
+      "Rating \/ Industry^": "Personal Products",
+      "Quantity": 21004,
+      "Market value\n(Rs. in Lakhs)": 143.67,
+      "% to NAV": 0.00203458846730988
+     },
+     {
+      "Name of the Instrument": "Bank of India",
+      "ISIN": "INE084A01016",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 129433,
+      "Market value\n(Rs. in Lakhs)": 143.02,
+      "% to NAV": 0.00202546975488168
+     },
+     {
+      "Name of the Instrument": "GAIL (India) Limited",
+      "ISIN": "INE129A01019",
+      "Rating \/ Industry^": "Gas",
+      "Quantity": 71026,
+      "Market value\n(Rs. in Lakhs)": 141.67,
+      "% to NAV": 0.00200628043895089
+     },
+     {
+      "Name of the Instrument": "CRISIL Limited",
+      "ISIN": "INE007A01025",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 2596,
+      "Market value\n(Rs. in Lakhs)": 139.25,
+      "% to NAV": 0.00197202276636363
+     },
+     {
+      "Name of the Instrument": "DLF Limited",
+      "ISIN": "INE271C01023",
+      "Rating \/ Industry^": "Realty",
+      "Quantity": 16852,
+      "Market value\n(Rs. in Lakhs)": 138.68,
+      "% to NAV": 0.00196400851858193
+     },
+     {
+      "Name of the Instrument": "Indian Oil Corporation Limited",
+      "ISIN": "INE242A01010",
+      "Rating \/ Industry^": "Petroleum Products",
+      "Quantity": 98525,
+      "Market value\n(Rs. in Lakhs)": 136.59,
+      "% to NAV": 0.00193429243764643
+     },
+     {
+      "Name of the Instrument": "Ajanta Pharmaceuticals Limited",
+      "ISIN": "INE031B01049",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 4485,
+      "Market value\n(Rs. in Lakhs)": 135.56,
+      "% to NAV": 0.00191979301998906
+     },
+     {
+      "Name of the Instrument": "Cholamandalam Investment and Finance Company Limited",
+      "ISIN": "INE121A01024",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 10961,
+      "Market value\n(Rs. in Lakhs)": 135.25,
+      "% to NAV": 0.00191542965601073
+     },
+     {
+      "Name of the Instrument": "Hitachi Energy India Ltd.",
+      "ISIN": "INE07Y701011",
+      "Rating \/ Industry^": "Electrical Equipment",
+      "Quantity": 1120,
+      "Market value\n(Rs. in Lakhs)": 134.16,
+      "% to NAV": 0.00189994373442277
+     },
+     {
+      "Name of the Instrument": "Aditya Birla Fashion and Retail Limited",
+      "ISIN": "INE647O01011",
+      "Rating \/ Industry^": "Retailing",
+      "Quantity": 42631,
+      "Market value\n(Rs. in Lakhs)": 133.75,
+      "% to NAV": 0.00189420824069066
+     },
+     {
+      "Name of the Instrument": "Sundram Fasteners Limited",
+      "ISIN": "INE387A01021",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 11428,
+      "Market value\n(Rs. in Lakhs)": 131.67,
+      "% to NAV": 0.00186465170659775
+     },
+     {
+      "Name of the Instrument": "General Insurance Corporation Of India",
+      "ISIN": "INE481Y01014",
+      "Rating \/ Industry^": "Insurance",
+      "Quantity": 32936,
+      "Market value\n(Rs. in Lakhs)": 131.61,
+      "% to NAV": 0.00186386649141625
+     },
+     {
+      "Name of the Instrument": "TIMKEN INDIA LTD",
+      "ISIN": "INE325A01013",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 3827,
+      "Market value\n(Rs. in Lakhs)": 129.29,
+      "% to NAV": 0.00183099853895497
+     },
+     {
+      "Name of the Instrument": "Housing & Urban Development Corporation Ltd.",
+      "ISIN": "INE031A01017",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 53456,
+      "Market value\n(Rs. in Lakhs)": 127.55,
+      "% to NAV": 0.00180635691573251
+     },
+     {
+      "Name of the Instrument": "Escorts Kubota Limited",
+      "ISIN": "INE042A01014",
+      "Rating \/ Industry^": "Agricultural Commercial & Construction Vehicles",
+      "Quantity": 3579,
+      "Market value\n(Rs. in Lakhs)": 127.19,
+      "% to NAV": 0.00180129717921091
+     },
+     {
+      "Name of the Instrument": "Adani Power Limited",
+      "ISIN": "INE814H01011",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 22907,
+      "Market value\n(Rs. in Lakhs)": 127.09,
+      "% to NAV": 0.00179979539109414
+     },
+     {
+      "Name of the Instrument": "Nippon Life India Asset Management Ltd.",
+      "ISIN": "INE298J01013",
+      "Rating \/ Industry^": "Capital Markets",
+      "Quantity": 18427,
+      "Market value\n(Rs. in Lakhs)": 126.32,
+      "% to NAV": 0.00178887733696228
+     },
+     {
+      "Name of the Instrument": "Adani Green Energy Limited",
+      "ISIN": "INE364U01010",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 9476,
+      "Market value\n(Rs. in Lakhs)": 125.45,
+      "% to NAV": 0.00177663699553293
+     },
+     {
+      "Name of the Instrument": "SKF India Limited",
+      "ISIN": "INE640A01023",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 2480,
+      "Market value\n(Rs. in Lakhs)": 124.16,
+      "% to NAV": 0.00175827588151239
+     },
+     {
+      "Name of the Instrument": "Pidilite Industries Limited",
+      "ISIN": "INE318A01026",
+      "Rating \/ Industry^": "Chemicals & Petrochemicals",
+      "Quantity": 4022,
+      "Market value\n(Rs. in Lakhs)": 123.32,
+      "% to NAV": 0.00174646952845437
+     },
+     {
+      "Name of the Instrument": "Tata Technologies Ltd",
+      "ISIN": "INE142M01025",
+      "Rating \/ Industry^": "IT - Services",
+      "Quantity": 13128,
+      "Market value\n(Rs. in Lakhs)": 123.21,
+      "% to NAV": 0.00174482273766395
+     },
+     {
+      "Name of the Instrument": "Godrej Consumer Products Limited",
+      "ISIN": "INE102D01028",
+      "Rating \/ Industry^": "Personal Products",
+      "Quantity": 9897,
+      "Market value\n(Rs. in Lakhs)": 123.18,
+      "% to NAV": 0.001744493199651
+     },
+     {
+      "Name of the Instrument": "Indraprastha Gas Limited",
+      "ISIN": "INE203G01027",
+      "Rating \/ Industry^": "Gas",
+      "Quantity": 37358,
+      "Market value\n(Rs. in Lakhs)": 122.18,
+      "% to NAV": 0.00173027940426374
+     },
+     {
+      "Name of the Instrument": "L&T Finance Limited",
+      "ISIN": "INE498L01015",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 85487,
+      "Market value\n(Rs. in Lakhs)": 121.79,
+      "% to NAV": 0.00172481280629935
+     },
+     {
+      "Name of the Instrument": "Bank of Baroda",
+      "ISIN": "INE028A01039",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 48991,
+      "Market value\n(Rs. in Lakhs)": 120.71,
+      "% to NAV": 0.00170952507344239
+     },
+     {
+      "Name of the Instrument": "Cochin Shipyard Ltd.",
+      "ISIN": "INE704P01025",
+      "Rating \/ Industry^": "Industrial Manufacturing",
+      "Quantity": 7625,
+      "Market value\n(Rs. in Lakhs)": 120.27,
+      "% to NAV": 0.00170322733499418
+     },
+     {
+      "Name of the Instrument": "Bajaj Holdings & Investments Limited",
+      "ISIN": "INE118A01012",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 1134,
+      "Market value\n(Rs. in Lakhs)": 118.71,
+      "% to NAV": 0.00168114668076225
+     },
+     {
+      "Name of the Instrument": "Samvardhana Motherson International Limited",
+      "ISIN": "INE775A01035",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 73060,
+      "Market value\n(Rs. in Lakhs)": 118.69,
+      "% to NAV": 0.00168091047609442
+     },
+     {
+      "Name of the Instrument": "United Spirits Limited",
+      "ISIN": "INE854D01024",
+      "Rating \/ Industry^": "Beverages",
+      "Quantity": 7721,
+      "Market value\n(Rs. in Lakhs)": 118.06,
+      "% to NAV": 0.00167196779484441
+     },
+     {
+      "Name of the Instrument": "ICICI Lombard General Insurance Company Limited",
+      "ISIN": "INE765G01017",
+      "Rating \/ Industry^": "Insurance",
+      "Quantity": 6227,
+      "Market value\n(Rs. in Lakhs)": 115.94,
+      "% to NAV": 0.00164188230334711
+     },
+     {
+      "Name of the Instrument": "Motherson Sumi Wiring India Limited",
+      "ISIN": "INE0FS801015",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 179803,
+      "Market value\n(Rs. in Lakhs)": 115.06,
+      "% to NAV": 0.00162939924565413
+     },
+     {
+      "Name of the Instrument": "Havells India Limited",
+      "ISIN": "INE176B01034",
+      "Rating \/ Industry^": "Consumer Durables",
+      "Quantity": 6619,
+      "Market value\n(Rs. in Lakhs)": 113.71,
+      "% to NAV": 0.00161040091151415
+     },
+     {
+      "Name of the Instrument": "Bharat Dynamics Limited",
+      "ISIN": "INE171Z01026",
+      "Rating \/ Industry^": "Aerospace & Defense",
+      "Quantity": 9793,
+      "Market value\n(Rs. in Lakhs)": 112.62,
+      "% to NAV": 0.00159489487308881
+     },
+     {
+      "Name of the Instrument": "IRB Infrastructure Developers Ltd.",
+      "ISIN": "INE821I01022",
+      "Rating \/ Industry^": "Construction",
+      "Quantity": 210396,
+      "Market value\n(Rs. in Lakhs)": 112.33,
+      "% to NAV": 0.00159080104215922
+     },
+     {
+      "Name of the Instrument": "Poonawalla Fincorp Limited",
+      "ISIN": "INE511C01022",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 30719,
+      "Market value\n(Rs. in Lakhs)": 108.88,
+      "% to NAV": 0.00154198632330048
+     },
+     {
+      "Name of the Instrument": "GlaxoSmithKline Pharmaceuticals Limited",
+      "ISIN": "INE159A01016",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 4407,
+      "Market value\n(Rs. in Lakhs)": 107.72,
+      "% to NAV": 0.0015255758060921
+     },
+     {
+      "Name of the Instrument": "Star Health & Allied Insurance Limited",
+      "ISIN": "INE575P01011",
+      "Rating \/ Industry^": "Insurance",
+      "Quantity": 22779,
+      "Market value\n(Rs. in Lakhs)": 107,
+      "% to NAV": 0.00151537427532921
+     },
+     {
+      "Name of the Instrument": "Grindwell Norton Limted",
+      "ISIN": "INE536A01023",
+      "Rating \/ Industry^": "Industrial Products",
+      "Quantity": 4929,
+      "Market value\n(Rs. in Lakhs)": 103.61,
+      "% to NAV": 0.00146726986139291
+     },
+     {
+      "Name of the Instrument": "ABB India Limited",
+      "ISIN": "INE117A01022",
+      "Rating \/ Industry^": "Electrical Equipment",
+      "Quantity": 1373,
+      "Market value\n(Rs. in Lakhs)": 101.89,
+      "% to NAV": 0.00144299912014331
+     },
+     {
+      "Name of the Instrument": "3M India Limited",
+      "ISIN": "INE470A01017",
+      "Rating \/ Industry^": "Diversified",
+      "Quantity": 300,
+      "Market value\n(Rs. in Lakhs)": 96.74,
+      "% to NAV": 0.00136995450125096
+     },
+     {
+      "Name of the Instrument": "Bank of Maharashtra",
+      "ISIN": "INE457A01014",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 167179,
+      "Market value\n(Rs. in Lakhs)": 95.34,
+      "% to NAV": 0.00135021696928349
+     },
+     {
+      "Name of the Instrument": "Honeywell Automation India Limited",
+      "ISIN": "INE671A01010",
+      "Rating \/ Industry^": "Industrial Manufacturing",
+      "Quantity": 233,
+      "Market value\n(Rs. in Lakhs)": 95.15,
+      "% to NAV": 0.00134743723163372
+     },
+     {
+      "Name of the Instrument": "Global Health Ltd.",
+      "ISIN": "INE474Q01031",
+      "Rating \/ Industry^": "Healthcare Services",
+      "Quantity": 8828,
+      "Market value\n(Rs. in Lakhs)": 94.91,
+      "% to NAV": 0.00134415654437207
+     },
+     {
+      "Name of the Instrument": "Tata Investment Corporation Ltd.",
+      "ISIN": "INE672A01018",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 1411,
+      "Market value\n(Rs. in Lakhs)": 93.73,
+      "% to NAV": 0.00132742420733193
+     },
+     {
+      "Name of the Instrument": "K.P.R. Mill Limited",
+      "ISIN": "INE930H01031",
+      "Rating \/ Industry^": "Textiles & Apparels",
+      "Quantity": 9575,
+      "Market value\n(Rs. in Lakhs)": 93.72,
+      "% to NAV": 0.00132724534379367
+     },
+     {
+      "Name of the Instrument": "Shree Cement Limited",
+      "ISIN": "INE070A01015",
+      "Rating \/ Industry^": "Cement & Cement Products",
+      "Quantity": 353,
+      "Market value\n(Rs. in Lakhs)": 92.05,
+      "% to NAV": 0.00130359185877356
+     },
+     {
+      "Name of the Instrument": "JSW Energy Limited",
+      "ISIN": "INE121E01018",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 13985,
+      "Market value\n(Rs. in Lakhs)": 91.55,
+      "% to NAV": 0.00129655250932709
+     },
+     {
+      "Name of the Instrument": "Macrotech Developers Limited",
+      "ISIN": "INE670K01029",
+      "Rating \/ Industry^": "Realty",
+      "Quantity": 7287,
+      "Market value\n(Rs. in Lakhs)": 91.32,
+      "% to NAV": 0.0012932652934755
+     },
+     {
+      "Name of the Instrument": "Jindal Steel & Power Limited",
+      "ISIN": "INE749A01030",
+      "Rating \/ Industry^": "Ferrous Metals",
+      "Quantity": 9977,
+      "Market value\n(Rs. in Lakhs)": 90.44,
+      "% to NAV": 0.00128074388987575
+     },
+     {
+      "Name of the Instrument": "Canara Bank",
+      "ISIN": "INE476A01022",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 88542,
+      "Market value\n(Rs. in Lakhs)": 90.32,
+      "% to NAV": 0.00127911779938888
+     },
+     {
+      "Name of the Instrument": "NLC India Ltd.",
+      "ISIN": "INE589A01014",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 34751,
+      "Market value\n(Rs. in Lakhs)": 89.95,
+      "% to NAV": 0.00127389590883724
+     },
+     {
+      "Name of the Instrument": "Gujarat Gas Limited",
+      "ISIN": "INE844O01030",
+      "Rating \/ Industry^": "Gas",
+      "Quantity": 18371,
+      "Market value\n(Rs. in Lakhs)": 88.13,
+      "% to NAV": 0.00124814846710016
+     },
+     {
+      "Name of the Instrument": "JSW Infrastructure Ltd",
+      "ISIN": "INE880J01026",
+      "Rating \/ Industry^": "Transport Infrastructure",
+      "Quantity": 28285,
+      "Market value\n(Rs. in Lakhs)": 88.12,
+      "% to NAV": 0.00124796500097679
+     },
+     {
+      "Name of the Instrument": "Endurance Technologies Limited",
+      "ISIN": "INE913H01037",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 3747,
+      "Market value\n(Rs. in Lakhs)": 87.98,
+      "% to NAV": 0.00124600202675113
+     },
+     {
+      "Name of the Instrument": "SJVN Limited",
+      "ISIN": "INE002L01015",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 76189,
+      "Market value\n(Rs. in Lakhs)": 87.53,
+      "% to NAV": 0.0012396325460386
+     },
+     {
+      "Name of the Instrument": "Bharti Hexacom Ltd.",
+      "ISIN": "INE343G01021",
+      "Rating \/ Industry^": "Telecom - Services",
+      "Quantity": 6208,
+      "Market value\n(Rs. in Lakhs)": 85.43,
+      "% to NAV": 0.00120990627427157
+     },
+     {
+      "Name of the Instrument": "Bharat Heavy Electricals Limited",
+      "ISIN": "INE257A01026",
+      "Rating \/ Industry^": "Electrical Equipment",
+      "Quantity": 33757,
+      "Market value\n(Rs. in Lakhs)": 84.76,
+      "% to NAV": 0.00120036058781174
+     },
+     {
+      "Name of the Instrument": "Ambuja Cements Limited",
+      "ISIN": "INE079A01024",
+      "Rating \/ Industry^": "Cement & Cement Products",
+      "Quantity": 15858,
+      "Market value\n(Rs. in Lakhs)": 84.29,
+      "% to NAV": 0.00119363116511711
+     },
+     {
+      "Name of the Instrument": "Dabur India Limited",
+      "ISIN": "INE016A01026",
+      "Rating \/ Industry^": "Personal Products",
+      "Quantity": 15513,
+      "Market value\n(Rs. in Lakhs)": 81.78,
+      "% to NAV": 0.00115810642350805
+     },
+     {
+      "Name of the Instrument": "Punjab National Bank",
+      "ISIN": "INE160A01022",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 77862,
+      "Market value\n(Rs. in Lakhs)": 81.68,
+      "% to NAV": 0.00115669673665977
+     },
+     {
+      "Name of the Instrument": "ZF Commercial Vehicle Control Systems India Limited",
+      "ISIN": "INE342J01019",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 653,
+      "Market value\n(Rs. in Lakhs)": 81.52,
+      "% to NAV": 0.00115444033701202
+     },
+     {
+      "Name of the Instrument": "Adani Energy Solutions Limited",
+      "ISIN": "INE931S01010",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 9617,
+      "Market value\n(Rs. in Lakhs)": 80.83,
+      "% to NAV": 0.00114471085445888
+     },
+     {
+      "Name of the Instrument": "Torrent Pharmaceuticals Limited",
+      "ISIN": "INE685A01028",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 2427,
+      "Market value\n(Rs. in Lakhs)": 80.68,
+      "% to NAV": 0.00114255045765562
+     },
+     {
+      "Name of the Instrument": "Bosch Limited",
+      "ISIN": "INE323A01026",
+      "Rating \/ Industry^": "Auto Components",
+      "Quantity": 226,
+      "Market value\n(Rs. in Lakhs)": 79.02,
+      "% to NAV": 0.00111911661507785
+     },
+     {
+      "Name of the Instrument": "Bayer Cropscience Limited",
+      "ISIN": "INE462A01022",
+      "Rating \/ Industry^": "Fertilizers & Agrochemicals",
+      "Quantity": 1358,
+      "Market value\n(Rs. in Lakhs)": 77.3,
+      "% to NAV": 0.00109472747409652
+     },
+     {
+      "Name of the Instrument": "Godrej Industries Limited",
+      "ISIN": "INE233A01035",
+      "Rating \/ Industry^": "Diversified",
+      "Quantity": 6988,
+      "Market value\n(Rs. in Lakhs)": 75.2,
+      "% to NAV": 0.00106493719240815
+     },
+     {
+      "Name of the Instrument": "ICICI Prudential Life Insurance Company Limited",
+      "ISIN": "INE726G01019",
+      "Rating \/ Industry^": "Insurance",
+      "Quantity": 10201,
+      "Market value\n(Rs. in Lakhs)": 71.37,
+      "% to NAV": 0.00101074605084867
+     },
+     {
+      "Name of the Instrument": "Indian Railway Finance Corporation Limited",
+      "ISIN": "INE053F01010",
+      "Rating \/ Industry^": "Finance",
+      "Quantity": 46931,
+      "Market value\n(Rs. in Lakhs)": 70.09,
+      "% to NAV": 0.000992554636265386
+     },
+     {
+      "Name of the Instrument": "Sun TV Network Limited",
+      "ISIN": "INE424H01027",
+      "Rating \/ Industry^": "Entertainment",
+      "Quantity": 9050,
+      "Market value\n(Rs. in Lakhs)": 68.64,
+      "% to NAV": 0.000971997998512028
+     },
+     {
+      "Name of the Instrument": "NHPC Limited",
+      "ISIN": "INE848E01016",
+      "Rating \/ Industry^": "Power",
+      "Quantity": 82720,
+      "Market value\n(Rs. in Lakhs)": 67.37,
+      "% to NAV": 0.000954040382506695
+     },
+     {
+      "Name of the Instrument": "FERTILIZERS & CHEMICALS TRAVANCORE LIMIT",
+      "ISIN": "INE188A01015",
+      "Rating \/ Industry^": "Fertilizers & Agrochemicals",
+      "Quantity": 6635,
+      "Market value\n(Rs. in Lakhs)": 66.56,
+      "% to NAV": 0.000942548322283566
+     },
+     {
+      "Name of the Instrument": "Indian Railway Catering & Tourism Corporation Limited",
+      "ISIN": "INE335Y01020",
+      "Rating \/ Industry^": "Leisure Services",
+      "Quantity": 7856,
+      "Market value\n(Rs. in Lakhs)": 64.1,
+      "% to NAV": 0.000907786016600162
+     },
+     {
+      "Name of the Instrument": "Zydus Lifesciences Limited",
+      "ISIN": "INE010B01027",
+      "Rating \/ Industry^": "Pharmaceuticals & Biotechnology",
+      "Quantity": 6518,
+      "Market value\n(Rs. in Lakhs)": 62.96,
+      "% to NAV": 0.000891635743715678
+     },
+     {
+      "Name of the Instrument": "Union Bank of India",
+      "ISIN": "INE692A01016",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 50324,
+      "Market value\n(Rs. in Lakhs)": 61.2,
+      "% to NAV": 0.000866759518941192
+     },
+     {
+      "Name of the Instrument": "Adani Gas Limited",
+      "ISIN": "INE399L01023",
+      "Rating \/ Industry^": "Gas",
+      "Quantity": 7221,
+      "Market value\n(Rs. in Lakhs)": 58.66,
+      "% to NAV": 0.000830728283375423
+     },
+     {
+      "Name of the Instrument": "Life Insurance Corp of India",
+      "ISIN": "INE0J1Y01017",
+      "Rating \/ Industry^": "Insurance",
+      "Quantity": 5781,
+      "Market value\n(Rs. in Lakhs)": 56.97,
+      "% to NAV": 0.000806822619176714
+     },
+     {
+      "Name of the Instrument": "Adani Wilmar Limited",
+      "ISIN": "INE699H01024",
+      "Rating \/ Industry^": "Agricultural Food & other Products",
+      "Quantity": 16696,
+      "Market value\n(Rs. in Lakhs)": 52.37,
+      "% to NAV": 0.000741611054911639
+     },
+     {
+      "Name of the Instrument": "The New India Assurance Company Limited",
+      "ISIN": "INE470Y01017",
+      "Rating \/ Industry^": "Insurance",
+      "Quantity": 25421,
+      "Market value\n(Rs. in Lakhs)": 49.42,
+      "% to NAV": 0.000699889854385662
+     },
+     {
+      "Name of the Instrument": "IDBI Bank Limited",
+      "ISIN": "INE008A01015",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 59308,
+      "Market value\n(Rs. in Lakhs)": 48.63,
+      "% to NAV": 0.000688640613807296
+     },
+     {
+      "Name of the Instrument": "Metro Brands Limited",
+      "ISIN": "INE317I01021",
+      "Rating \/ Industry^": "Consumer Durables",
+      "Quantity": 3286,
+      "Market value\n(Rs. in Lakhs)": 40.6,
+      "% to NAV": 0.000574971543686651
+     },
+     {
+      "Name of the Instrument": "Indian Overseas Bank",
+      "ISIN": "INE565A01014",
+      "Rating \/ Industry^": "Banks",
+      "Quantity": 72459,
+      "Market value\n(Rs. in Lakhs)": 39,
+      "% to NAV": 0.00055237648613252
+     },
+     {
+      "Name of the Instrument": "Mangalore Refinery & Petrochemicals Ltd.",
+      "ISIN": "INE103A01014",
+      "Rating \/ Industry^": "Petroleum Products",
+      "Quantity": 19356,
+      "Market value\n(Rs. in Lakhs)": 29.92,
+      "% to NAV": 0.00042367339180796
+     },
+     {
+      "Name of the Instrument": "UPL Limited - RIGHTS",
+      "ISIN": "INE628A20010",
+      "Rating \/ Industry^": "Fertilizers & Agrochemicals",
+      "Quantity": 6684,
+      "Market value\n(Rs. in Lakhs)": 12.37,
+      "% to NAV": 0.000175116325891097
+     },
+     {
+      "Name of the Instrument": "Total",
+      "Market value\n(Rs. in Lakhs)": 70583.92,
+      "% to NAV": 0.999595301886921
+     },
+     {
+      "Name of the Instrument": "GRAND TOTAL (AUM)",
+      "Market value\n(Rs. in Lakhs)": 70612.49,
+      "% to NAV": 1
+     }
+    ]
+}
