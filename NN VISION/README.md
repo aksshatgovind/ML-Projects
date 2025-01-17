@@ -55,5 +55,3 @@
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to submit a pull request.
-
-
