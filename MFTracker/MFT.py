@@ -14,10 +14,9 @@ class MutualFund:
         :param data: Initial data in JSON format
         """
         self.fund_name = fund_name
-        self.data = data  # Original data from the JSON
-        self.history = []  # Stores the history of changes (snapshots of the data)
-        self.current_state = self._parse_data(data)  # Current state of the mutual fund
-        self.history.append({'row': 0, 'state': deepcopy(self.current_state)})  # Add initial state to history
+        self.history = []                               # Stores the history of changes
+        self.current_state = self._parse_data(data)     # Current state of the mutual fund
+        self.history.append({'row': 0, 'state': deepcopy(self.current_state)})  
 
     def _parse_data(self, data):
         """
@@ -29,7 +28,7 @@ class MutualFund:
         parsed = {}
         for item in data['ZN250']:
             instrument = item.get("Name of the Instrument")
-            if instrument != "Total" and instrument != "GRAND TOTAL (AUM)":  # Ignore Total and Grand Total entries
+            if instrument != "Total" and instrument != "GRAND TOTAL (AUM)": 
                 parsed[instrument] = {
                     "ISIN": item.get("ISIN"),
                     "Rating/Industry": item.get("Rating \/ Industry^"),
@@ -164,6 +163,7 @@ class MutualFund:
         print(json.dumps(self.current_state, indent=4))
 
 
+# GUI
 def display_changes(changes, text_widget):
     """Display the changes made to the mutual fund within the specified row range."""
     text_widget.delete(1.0, tk.END)  
@@ -241,7 +241,7 @@ def main():
     button = tk.Button(root, text="Show Changes", command=lambda: on_button_click(fund_name_entry.get(),month_entry.get(), None, output_text))
     button.pack()
 
-    output_text = tk.Text(root, height=60, width=200)
+    output_text = tk.Text(root, height=60, width=100)
     output_text.pack()
 
     root.mainloop()
