@@ -13,7 +13,7 @@ from reportlab.lib import colors
 from reportlab.pdfgen import canvas
 from PIL import Image
 
-from utils import plot_score_trends, generate_recommendations, define_student_persona, plot_performance_trends, plot_quiz_performance, plot_student_performance, plot_weak_areas
+from utils import plot_score_trends, generate_recommendations, define_student_persona, plot_performance_trends, plot_student_performance, plot_weak_areas
 
 def load_json(file_path):
     with open(file_path, 'r') as file:
@@ -56,7 +56,7 @@ def calculate_question_difficulty(df_incorrect, total_attempts):
         question_id = row['question_id']
         incorrect_count = row['incorrect_count']
 
-        difficulty = incorrect_count / total_attempts.get(question_id, 1)  # Avoid division by zero
+        difficulty = incorrect_count / total_attempts.get(question_id, 1)  
         question_difficulty[question_id] = difficulty
     
     return question_difficulty
@@ -103,13 +103,11 @@ def analyze_incorrect_answers(quiz_data, hist_quiz_data):
             if correct_option is None:
                 continue
 
-            # Compare user response with the correct option
             user_answer = response_map.get(str(question_id))
 
             if user_answer != correct_option:
                 incorrect_questions[question_id] += 1
 
-    # Convert incorrect questions to a DataFrame for analysis
     df_incorrect = pd.DataFrame(list(incorrect_questions.items()), columns=["question_id", "incorrect_count"])
 
     return df_incorrect

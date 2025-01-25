@@ -59,6 +59,10 @@ You can find the generated PDF report in the `reports/` folder, and you can view
 
 - [Download the Quiz Analyst Report PDF](reports/Quiz_Analyst_Report.pdf)
 
+### Video Demostration
+
+> Here is a video demostration for this script: [Demo](https://www.loom.com/share/889529746f2e4bbcbd312dddb923969e?sid=945a5baa-3c38-41d1-8b90-f3ae16dd2daf)
+
 ---
 
 For more details or questions, please contact [Aksshat Govind](github.com/aksshatgovind).
